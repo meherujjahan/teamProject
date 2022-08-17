@@ -1,0 +1,437 @@
+/* =======desktop view======== */
+@media (min-width: 1350px) {
+}
+/* =======desktop and laptop view======== */
+
+@media (max-width: 1024px) {
+}
+
+/* =======tablets and ipads view======== */
+@media (min-width: 769px) and (max-width: 1023px) {
+}
+
+/* =======Mobile phones view======== */
+@media (max-width: 768px) {
+}
+
+/* ============= Small Screen Mobile view=========== */
+@media (max-width: 425px) {
+}
+@media (max-width: 360px) {
+}
+
+@media only screen and (min-width: 689px) and (max-width: 1024px) {
+  /* pricing section */
+  .activity-check {
+    display: none;
+  }
+  /* header section */
+
+  .navbar-toggler {
+    background-color: tomato;
+    color: tomato;
+    margin-left: 620px;
+    margin-top: -70px;
+    font-size: 17px;
+  }
+
+  .top-header-responsive {
+    font-size: 15px;
+  }
+
+  .navbar-brand img {
+    width: 70%;
+    margin-top: 20px;
+  }
+
+  /* hero section start here */
+  .home-card-2 {
+    height: 370px;
+    width: 40%;
+    margin-top: 10px;
+  }
+
+  /* portfolio section-3 start here */
+
+  .portfolio-card,
+  .service-card {
+    width: 28%;
+    height: 250px;
+    margin-top: 18px;
+  }
+
+  .content {
+    margin-left: 80px;
+  }
+
+  /*single portfolio start here */
+
+  .banner-card {
+    margin-top: 27px;
+  }
+
+  .card-1,
+  .card-2,
+  .card-3 {
+    height: 90px;
+    width: 120px;
+  }
+
+  .card-1 img {
+    margin-bottom: 15px;
+    margin-top: -10px;
+    z-index: 3;
+    position: relative;
+    width: 120%;
+    height: 250px;
+  }
+
+  .card-2 img {
+    margin-left: 90px;
+    margin-top: -90px;
+    z-index: 40;
+    position: relative;
+    width: 120%;
+    height: 250px;
+  }
+
+  .card-3 img {
+    margin-left: 160px;
+    margin-top: -160px;
+    z-index: 50;
+    position: relative;
+    width: 120%;
+    height: 250px;
+  }
+  .single-portfolio-3 {
+    margin-left: 40px;
+  }
+
+  .single-portfolio-card-3 {
+    width: 40%;
+  }
+
+  .single-portfolio-5 {
+    margin-left: 30px;
+  }
+
+  .single-card-5 {
+    width: 30%;
+    height: 210px;
+  }
+
+  /*single portfolio ends here */
+
+  /* single service section start here */
+  .fw-bolder {
+    font-size: 13px;
+  }
+  .single-service-card-4 {
+    margin-left: -60px;
+    width: 20%;
+    margin-top: 18px;
+    margin: 10px;
+  }
+
+  .single-service-card-4 p {
+    font-size: 10px;
+  }
+
+  .single-service {
+    /* border: 1px solid; */
+    margin-left: -80px;
+  }
+
+  /* single job start here */
+  .single-job-nav {
+    font-size: 12px;
+  }
+
+  .corporate {
+    font-size: 12px;
+  }
+
+  .job-card-1,
+  .job-card-2 {
+    width: 40%;
+    height: 320px;
+  }
+
+  .job-card-1,
+  .job-card-2 ul li {
+    font-size: 12px;
+  }
+
+  .single-job-2 {
+    margin-left: 50px;
+  }
+
+  .job-card-3,
+  .job-card-4 {
+    width: 40%;
+    height: 320px;
+  }
+  .job-3-container {
+    margin-left: 50px;
+  }
+
+  .job-card-3,
+  .job-card-4 ul li {
+    font-size: 12px;
+  }
+
+  .job-apply-button {
+    width: 25%;
+  }
+
+  .name,
+  .email {
+    width: 40%;
+    height: 50px;
+    border: 1px solid rgb(241, 234, 234);
+    box-shadow: #00000029 0px 3px 6px, #0000003b 0px 3px 6px;
+    border-radius: 5px;
+  }
+
+  .message {
+    width: 83%;
+  }
+
+  .restart-button {
+    width: 120px;
+    height: 40px;
+  }
+
+  .job-submit-button {
+    width: 120px;
+    height: 40px;
+  }
+
+  .from-section {
+    margin-left: -5px;
+  }
+}
+
+@media only screen and (max-width: 688px) {
+  /* pricing section */
+  .activity-check {
+    display: none;
+  }
+  /* header section */
+  .navbar-toggler {
+    background-color: tomato;
+    color: rgb(255, 255, 255);
+    margin-left: 270px;
+    margin-top: -40px;
+    font-size: 10px;
+  }
+  .top-header-responsive {
+    font-size: 10px;
+  }
+  .email-responsive {
+    display: none;
+  }
+
+  .navbar-brand img {
+    width: 40%;
+    margin-top: 20px;
+  }
+
+  .home-button {
+    width: 140px;
+    height: 20px;
+    font-size: 12px;
+  }
+
+  /* hero section start here */
+  .home-section-2 {
+    margin-left: 10px;
+  }
+
+  .home-card {
+    height: 350px;
+    width: 70%;
+  }
+
+  .home-card:hover {
+    height: 350px;
+    width: 70%;
+  }
+
+  .home-card-2 {
+    height: 370px;
+    width: 70%;
+    margin-top: 10px;
+  }
+  /* portfolio section-3 start here */
+
+  .portfolio-card {
+    width: 90%;
+    height: 320px;
+    margin-top: 18px;
+  }
+
+  .content {
+    margin-left: 50px;
+  }
+
+  /*single portfolio start here */
+
+  .banner-card {
+    margin-top: 27px;
+  }
+
+  .card-1,
+  .card-2,
+  .card-3 {
+    height: 90px;
+    width: 100px;
+  }
+
+  .card-1 img {
+    margin-bottom: 15px;
+    margin-top: -10px;
+    z-index: 3;
+    position: relative;
+    width: 120%;
+    height: 250px;
+  }
+
+  .card-2 img {
+    margin-left: 90px;
+    margin-top: -90px;
+    z-index: 40;
+    position: relative;
+    width: 120%;
+    height: 250px;
+  }
+
+  .card-3 img {
+    margin-left: 160px;
+    margin-top: -160px;
+    z-index: 50;
+    position: relative;
+    width: 120%;
+    height: 250px;
+  }
+  .single-portfolio-card-2 {
+    width: 90%;
+    margin: 15px;
+  }
+
+  .single-portfolio-3 {
+    margin-left: 40px;
+  }
+
+  .single-portfolio-card-3 {
+    width: 80%;
+  }
+
+  .single-portfolio-5 {
+    margin-left: 30px;
+  }
+
+  .single-card-5 {
+    width: 70%;
+    margin-left: 110px;
+  }
+
+  /*single portfolio ends here */
+
+  /* single service section start here */
+  .fw-bolder {
+    font-size: 10px;
+  }
+
+  .single-service-card-4 {
+    /* margin-left: -30px; */
+    width: 400px;
+    margin-top: 18px;
+  }
+
+  .single-service-card-4 p {
+    font-size: 13px;
+  }
+
+  .single-service {
+    /* border: 1px solid; */
+    margin-left: -150px;
+  }
+  .service-card {
+    width: 90%;
+    height: 320px;
+    margin-top: 18px;
+  }
+  .service-6 {
+    margin-left: -110px;
+  }
+
+  /* single job start here */
+  .single-job-nav {
+    font-size: 12px;
+  }
+
+  .corporate {
+    font-size: 12px;
+  }
+
+  .job-card-1,
+  .job-card-2 {
+    width: 90%;
+    height: 320px;
+  }
+
+  .job-card-1,
+  .job-card-2 ul li {
+    font-size: 12px;
+  }
+
+  .single-job-2 {
+    margin-left: 10px;
+  }
+
+  .job-card-3,
+  .job-card-4 {
+    width: 90%;
+    height: 320px;
+  }
+  .job-3-container {
+    margin-left: 5px;
+  }
+
+  .job-card-3,
+  .job-card-4 ul li {
+    font-size: 12px;
+  }
+
+  .job-apply-button {
+    width: 50%;
+  }
+
+  .name,
+  .email {
+    width: 40%;
+    height: 50px;
+    border: 1px solid rgb(241, 234, 234);
+    box-shadow: #00000029 0px 3px 6px, #0000003b 0px 3px 6px;
+    border-radius: 5px;
+  }
+
+  .message {
+    width: 83%;
+  }
+
+  .restart-button {
+    width: 120px;
+    height: 40px;
+  }
+
+  .job-submit-button {
+    width: 120px;
+    height: 40px;
+  }
+
+  .from-section {
+    margin-left: -30px;
+  }
+}

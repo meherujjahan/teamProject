@@ -1,0 +1,21 @@
+/* =======desktop view======== */
+@media (min-width: 1350px) {
+}
+/* =======desktop and laptop view======== */
+
+@media (max-width: 1024px) {
+}
+
+/* =======tablets and ipads view======== */
+@media (min-width: 769px) and (max-width: 1023px) {
+}
+
+/* =======Mobile phones view======== */
+@media (max-width: 768px) {
+}
+
+/* ============= Small Screen Mobile view=========== */
+@media (max-width: 425px) {
+}
+@media (max-width: 360px) {
+}

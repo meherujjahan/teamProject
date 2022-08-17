@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing page</title>
+    <!-- font awesome CSS  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- responsive.css -->
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+
+  <body>
+    <!-- scroll html section here -->
+    <div class="top"></div>
+
+    <!-------- Added loader -------->
+    <div class="loader-bg">
+      <div class="preloader">
+        <img src="images/loader.gif" alt="spinner" />
+      </div>
+    </div>
+    <!-------- end loader section-------->
+
+    <header>
+      <div
+        class="container-fluid top-header px-5 py-2 d-flex justify-content-between align-items-center"
+      >
+        <div class="top-header-responsive">
+          <span>
+            <i class="fas fa-phone-alt text-white"></i>
+            <a href="tel:+12345678" class="text-white">+1 234 567 8</a>
+          </span>
+          <span class="mx-3 email-responsive">
+            <i class="fas fa-envelope text-white"></i>
+            <a class="text-white" href="mailto:support@creativetheme.net"
+              >support@creativetheme.net</a
+            >
+          </span>
+        </div>
+        <div class="d-flex justify-items-sm-end icon-responsive">
+          <a href="#"> <i class="fa-brands fa-facebook fs-5 text-white"></i></a>
+          <a href="#">
+            <i class="fa-brands fa-linkedin fs-5 mx-2 text-white"></i
+          ></a>
+          <a href="#"> <i class="fa-brands fa-twitter fs-5 text-white"></i></a>
+          <a href="#">
+            <i class="fa-brands fa-youtube fs-5 mx-2 text-white"></i
+          ></a>
+        </div>
+      </div>
+      <!-- Top header end here -->
+
+      <!-- Main header start here -->
+      <div id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <div class="container-fluid px-5">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/Creative-corporate-logo.png" alt="logo" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse right" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-black"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Pages
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item mx-3 my-2" href="contact.html"
+                        >Contact Us</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item mx-3 my-3" href="about.html"
+                        >About Us</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item mx-3 my-3" href="pricing.html"
+                        >Pricing</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item mx-3 my-3" href="careers.html"
+                        >Careers</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item mx-3 my-3" href="single-job.html"
+                        >Single Job Page</a
+                      >
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item mx-3 my-3" href="not-found.html"
+                        >404 Page</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item mx-3 my-2" href="service.html "
+                        >Services</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item mx-3 my-3"
+                        href="single-service.html"
+                        >Single Service</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-black"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Blog
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item mx-3 my-2" href="blog.html">
+                        Blog</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item mx-3 my-3"
+                        href="advance-blog.html"
+                        >Blog – Advanced</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item mx-3 my-3" href="single-post.html"
+                        >Single Post Page</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Portfolio
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item mx-3 my-3" href="portfolio.html"
+                        >Portfolio</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item mx-3 my-3"
+                        href="single-portfolio.html"
+                        >Single Portfolio</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="about.html"
+                    >About Us</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="contact.html"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- pricing section start here -->
+
+      <section class="pricing-section-1 banner-color">
+        <!-- pricing section -1 -->
+
+        <div class="container container-sm py-5">
+          <div class="text-center py-5">
+            <h1 class="fw-bold py-4">
+              Simple <span>Pricing</span> for Everyone
+            </h1>
+            <p class="lh-lg">
+              At vero eos et accusamus iusto odio dignissimos ducimus qui <br />
+              blanditiis praesentium voluptatum deleniti atque corrupti quos at
+              <br />
+              dolores molestias excepturi sint occaecati cupiditate.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Monthly yearly button -->
+
+      <div class="card border-0">
+        <div>
+          <div class="d-flex justify-content-center my-5">
+            <button
+              onclick="seePriceCard('1')"
+              class="month-btn border-0 fw-bold"
+            >
+              Monthly
+            </button>
+            <button
+              onclick="seePriceCard('2')"
+              class="year-btn border-0 fw-bold"
+            >
+              yearly
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!---------------------- pricing section -2 -------------------->
+      <section class="pricing-section-2 banner-color mb-5">
+        <div class="container container-sm">
+          <div class="price-box-full">
+            <!-----Monthly price card row id -1  ------>
+
+            <div id="1" class="pricing-all-box mb-5">
+              <div class="row g-0 mb-5">
+                <div class="pricing-box col-lg-4 col-12 col-md-6">
+                  <div class="price-card card border-0 text-center p-2">
+                    <div class="card-body">
+                      <h6 class="card-title">ECONOMY</h6>
+                      <h1 class="fw-bold">$25</h1>
+                      <p class="card-text">Per Month</p>
+                      <button class="text-white fw-bold main-button">
+                        GET STARTED
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="pricing-box col-lg-4 col-12 col-md-6">
+                  <div class="price-card card border-0 text-center p-2">
+                    <div class="card-body">
+                      <h6 class="card-title">PREMIUM</h6>
+                      <h1 class="fw-bold">$45</h1>
+                      <p class="card-text">Per Month</p>
+                      <button class="text-white fw-bold main-button">
+                        GET STARTED
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="pricing-box col-lg-4 col-12 col-md-6">
+                  <div class="price-card card border-0 text-center p-2">
+                    <div class="card-body">
+                      <h6 class="card-title">ULTRA</h6>
+                      <h1 class="fw-bold">$75</h1>
+                      <p class="card-text">Per Month</p>
+                      <button class="text-white fw-bold main-button">
+                        GET STARTED
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- yearly price card row id-2 -->
+
+            <div style="display: none" id="2" class="pricing-all-box">
+              <div class="row g-0 p">
+                <div class="pricing-box col-lg-4 col-12 col-md-6">
+                  <div class="price-card card border-0 text-center p-2">
+                    <div class="card-body">
+                      <h6 class="card-title">ECONOMY</h6>
+                      <h1 class="fw-bold">$175</h1>
+                      <p class="card-text">Per Year</p>
+                      <button class="main-button fw-bold">GET STARTED</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing-box col-lg-4 col-12 col-md-6">
+                  <div class="price-card card border-0 text-center p-2">
+                    <div class="card-body">
+                      <h6 class="card-title">PREMIUM</h6>
+                      <h1 class="fw-bold">$345</h1>
+                      <p class="card-text">Per Year</p>
+                      <button class="main-button fw-bold">GET STARTED</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="pricing-box col-lg-4 col-12 col-md-6">
+                  <div class="price-card card border-0 text-center p-2">
+                    <div class="card-body">
+                      <h6 class="card-title">ULTRA</h6>
+                      <h1 class="fw-bold">$575</h1>
+                      <p class="card-text">Per Year</p>
+                      <button class="main-button fw-bold">GET STARTED</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- activity checkList with icon -->
+
+          <div>
+            <div class="activity-check container container-sm p-5 my-5 p-sm-1">
+              <ul class="d-flex justify-content-between">
+                <li>
+                  <h6>
+                    1 Mobile <br />
+                    Responsive Website
+                  </h6>
+                </li>
+                <li><i class="fa-solid fa-check"></i></li>
+                <li><i class="fa-solid fa-check"></i></li>
+                <li><i class="fa-solid fa-check"></i></li>
+              </ul>
+
+              <hr />
+
+              <ul class="d-flex justify-content-between">
+                <li><h6>SEO Friendly for Google</h6></li>
+                <li><i class="fa-solid fa-xmark"></i></li>
+                <li><i class="fa-solid fa-check"></i></li>
+                <li><i class="fa-solid fa-check"></i></li>
+              </ul>
+
+              <hr />
+
+              <ul class="d-flex justify-content-between">
+                <li>
+                  <h6>Social media integration</h6>
+                  <i class="fa-solid fa-question"></i>
+                </li>
+                <li><i class="fa-solid fa-xmark"></i></li>
+                <li><i class="fa-solid fa-xmark"></i></li>
+                <li><i class="fa-solid fa-check"></i></li>
+              </ul>
+
+              <hr />
+
+              <ul class="d-flex justify-content-between">
+                <li>
+                  <h6>1 Year Free Hosting</h6>
+                  <i class="fa-solid fa-question"></i>
+                </li>
+                <li><i class="fa-solid fa-check"></i></li>
+                <li><i class="fa-solid fa-check"></i></li>
+                <li><i class="fa-solid fa-check"></i></li>
+              </ul>
+
+              <hr />
+
+              <ul class="d-flex justify-content-between">
+                <li><h6>Free SSL Security</h6></li>
+                <li><i class="fa-solid fa-xmark"></i></li>
+                <li><i class="fa-solid fa-check"></i></li>
+                <li><i class="fa-solid fa-check"></i></li>
+              </ul>
+              <hr />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!----------------- pricing section-4 ------------------------>
+
+      <section class="pricing-section-4 my-5">
+        <div class="container container-sm">
+          <div class="text-center">
+            <h1 class="fw-bold lh-lg">
+              <span>Frequently</span> Asked Questions!
+            </h1>
+            <p>
+              At vero eos et accusamus iusto odio dignissimos ducimus qui
+              blanditiis <br />
+              praesentium voluptatum deleniti atque corrupti quos
+            </p>
+          </div>
+          <div class="row">
+            <div class="col col-lg-6 m-auto py-2">
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseOne"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapseOne"
+                    >
+                      <h6>Your FAQ Question here.</h6>
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-headingOne"
+                  >
+                    <div class="accordion-body">
+                      Your content goes here. Edit or remove this text inline or
+                      in the module Content settings. You can also style every
+                      aspect of this content in the module Design settings and
+                      even apply custom CSS to this text in the module Advanced
+                      settings.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseTwo"
+                    >
+                      <h6>Can I also do it?</h6>
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingTwo"
+                  >
+                    <div class="accordion-body">
+                      Your content goes here. Edit or remove this text inline or
+                      in the module Content settings. You can also style every
+                      aspect of this content in the module Design settings and
+                      even apply custom CSS to this text in the module Advanced
+                      settings.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseTwo"
+                    >
+                      <h6>What do I need first?</h6>
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingTwo"
+                  >
+                    <div class="accordion-body">
+                      Your content goes here. Edit or remove this text inline or
+                      in the module Content settings. You can also style every
+                      aspect of this content in the module Design settings and
+                      even apply custom CSS to this text in the module Advanced
+                      settings.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseTwo"
+                    >
+                      <h6>Best Hosting Company?</h6>
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingTwo"
+                  >
+                    <div class="accordion-body">
+                      Your content goes here. Edit or remove this text inline or
+                      in the module Content settings. You can also style every
+                      aspect of this content in the module Design settings and
+                      even apply custom CSS to this text in the module Advanced
+                      settings.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseTwo"
+                    >
+                      <h6>Can I also do it?</h6>
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseFive"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingTwo"
+                  >
+                    <div class="accordion-body">
+                      Your content goes here. Edit or remove this text inline or
+                      in the module Content settings. You can also style every
+                      aspect of this content in the module Design settings and
+                      even apply custom CSS to this text in the module Advanced
+                      settings.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!----------------- pricing-section-5 --------------------->
+      <section>
+        <div
+          class="container container-sm pricing-section-5 rounded-3 py-5 my-5"
+        >
+          <div
+            class="row d-flex align-items-center justify-content-between px-3"
+          >
+            <div class="col col-lg-9 col-md-12 col-12">
+              <b class="text-white">Have any Specific Question?</b>
+              <h2>Click that Button and Send us a Message.</h2>
+            </div>
+            <div class="col col-lg-3 col-md-12 col-12">
+              <a href="#">
+                <button
+                  class="apply-button d-flex fw-bold btn-lg"
+                  formaction="#"
+                >
+                  MESSAGE US
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!------------------------ footer ----------------------------------->
+    <footer>
+      <div class="footer-section bg-dark text-white px-4 pt-5">
+        <div class="row">
+          <div class="footer-section-1 mb-2 col col-lg-4 col-md-12 col-12">
+            <div>
+              <a href="index.html">
+                <img src="images/Creative-corporate-logo.png" alt="logo" />
+              </a>
+              <p class="text-white">
+                Creative Corporate is a Professionally Designed for
+                Multipurpose.And you can use it to create almost any kind of
+                Website for any kind of business.<br />If you need to create a
+                custom website of need to add custom features to this, then fell
+                free to contact us.
+              </p>
+            </div>
+            <hr />
+
+            <h6>Follow Us:</h6>
+
+            <div class="footer-icon-all">
+              <ul class="icon-footer d-flex gap-4">
+                <li>
+                  <a href="#"> <i class="fa-brands fa-facebook-f">f</i></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="icon-footer fa-brands fa-twitter">t</i></a
+                  >
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="icon-footer fa-brands fa-instagram">i</i></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="icon-footer fa-brands fa-dribbble">b</i></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-section-2 mt-2 lh-lg col col-lg-2 col-md-6 col-12">
+            <h5 class="fw-bold">NAVIGATE</h5>
+            <ul class="fs-6">
+              <li>
+                <a href="index.html">Homepage</a>
+              </li>
+              <li>
+                <a href="careers.html">Careers</a>
+              </li>
+              <li>
+                <a href="#">News</a>
+              </li>
+              <li>
+                <a href="#">Affiliates</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section-2 mt-2 lh-lg col col-lg-2 col-md-6 col-12">
+            <h5 class="fw-bold">RESOURCES</h5>
+            <ul class="fs-6">
+              <li>
+                <a href="blog.html">Blog</a>
+              </li>
+              <li>
+                <a href="#">Documentation</a>
+              </li>
+              <li>
+                <a href="#">Community</a>
+              </li>
+              <li>
+                <a href="pricing.html">Pricing</a>
+              </li>
+              <li>
+                <a href="#">Design Case</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section-2 mt-2 lh-lg col col-lg-2 col-md-6 col-12">
+            <h5 class="fw-bold">COMPANY</h5>
+            <ul>
+              <li>
+                <a href="service.html">Services</a>
+              </li>
+              <li>
+                <a href="about.html">About Us</a>
+              </li>
+              <li>
+                <a href="#">Happy Customer</a>
+              </li>
+              <li>
+                <a href="portfolio.html">Portfolio</a>
+              </li>
+              <li>
+                <a href="#">Help Center</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section-2 mt-2 lh-lg col col-lg-2 col-md-6 col-12">
+            <h5 class="fw-bold">Help</h5>
+            <ul class="fs-6">
+              <li>
+                <a href="tel:+12345678"
+                  ><i class="fa-solid fa-phone"></i> +1 234 567 8</a
+                >
+              </li>
+              <li>
+                <a href="mailto:support@creativetheme.net"
+                  ><i class="fa-solid fa-envelope"></i> support@creative
+                  theme.net</a
+                >
+              </li>
+              <li>
+                <p>
+                  <a href="#"
+                    ><i class="fa-solid fa-location-dot"></i> 49 Unique Square
+                    D, New York,</a
+                  >
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- sub footer start  -->
+        <hr />
+
+        <div class="sub-footer text-center lh-lg d-grid justify-content-around">
+          <div>
+            <a href="terms.html">Terms</a>
+            <a href="faqs.html">Faqs</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+          </div>
+          <div>
+            <p class="text-white">
+              &copy; <span id="year"></span> | All rights reserved by
+
+              <span>
+                <a
+                  style="color: tomato"
+                  href="https://www.template.creativetheme.net"
+                  target="_blank"
+                  >Creative Template</a
+                >
+              </span>
+              . Powered by
+              <span>
+                <a
+                  style="color: tomato"
+                  href="https://www.semiclone.com"
+                  target="_blank"
+                  >Semiclone Inc</a
+                >
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-------  scroll html ------->
+    <div class="scrolltop">
+      <div class="scroll icon">
+        <i class="fa fa-rocket" aria-hidden="true"></i>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jQuery.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script></script>
+  </body>
+</html>

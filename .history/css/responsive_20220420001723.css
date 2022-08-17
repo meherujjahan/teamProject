@@ -1,0 +1,433 @@
+/* =======desktop view======== */
+@media (min-width: 1350px) {
+}
+/* =======desktop and laptop view======== */
+
+@media (max-width: 1024px) {
+  p {
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+  .activity-check {
+    display: none;
+  }
+  .main-button {
+    font-size: 16px;
+  }
+
+  .sub-button {
+    font-size: 12px;
+  }
+  /* common style ends   */
+
+  /* header section */
+
+  .navbar-toggler {
+    margin-left: 620px;
+    margin-top: -70px;
+    font-size: 17px;
+  }
+
+  .top-header-responsive {
+    font-size: 15px;
+  }
+
+  .navbar-brand img {
+    width: 70%;
+    margin-top: 20px;
+  }
+
+  /* about section start here */
+}
+
+/* =======tablets and ipads view======== */
+@media (min-width: 769px) and (max-width: 1024px) {
+  p {
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 29px;
+  }
+
+  h3 {
+    font-size: 23px;
+  }
+  .newsLetter input {
+    width: 250px;
+    margin: 0px;
+  }
+  .message {
+    margin-bottom: 20px;
+  }
+  .activity-check {
+    display: none;
+  }
+  .career-img img {
+    width: inherit;
+  }
+  .career-images {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .career-cards {
+    margin-bottom: 30px;
+  }
+
+  .main-button {
+    font-size: 14px;
+  }
+
+  .sub-button {
+    font-size: 10px;
+  }
+  /* common style ends   */
+
+  /* header section */
+
+  .navbar-toggler {
+    margin-left: 620px;
+    margin-top: -70px;
+    font-size: 17px;
+  }
+
+  .top-header-responsive {
+    font-size: 15px;
+  }
+
+  .navbar-brand img {
+    width: 70%;
+    margin-top: 20px;
+  }
+
+  /* about section start here */
+  .sub-card h2 {
+    font-size: 14px;
+    height: 55px;
+    width: 95%;
+  }
+}
+
+/* =======Mobile phones view======== */
+@media (max-width: 768px) {
+  p {
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+  .post-text {
+    align-items: flex-start;
+  }
+  .newsLetter input {
+    width: 200px;
+    margin: 0px;
+    padding: 8px;
+  }
+  .activity-check {
+    display: none;
+  }
+  .career-img img {
+    width: inherit;
+  }
+  .career-images {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .career-cards {
+    margin-bottom: 30px;
+  }
+  .contract-input {
+    width: 100%;
+  }
+  .contract-textarea {
+    width: 100%;
+  }
+  .main-button {
+    font-size: 13px;
+  }
+
+  .sub-button {
+    font-size: 10px;
+  }
+
+  /* common style ends   */
+
+  /* header section */
+  .navbar-toggler {
+    margin-left: 620px;
+    margin-top: -70px;
+  }
+
+  .top-header-responsive {
+    font-size: 15px;
+  }
+
+  .navbar-brand img {
+    width: 70%;
+    margin-top: 20px;
+  }
+
+  /* about section start here */
+  .sub-card h2 {
+    font-size: 9px;
+    height: 55px;
+    width: 95%;
+  }
+
+  /* single job start here */
+  .form-container {
+    width: 80%;
+    margin-left: 50px;
+  }
+  .number-box {
+    width: 20%;
+  }
+
+  /* single job ends here */
+}
+
+/* ============= Small Screen Mobile view=========== */
+@media (max-width: 425px) {
+  p {
+    font-size: 13px;
+  }
+
+  h1 {
+    font: 30px;
+  }
+  h2 {
+    font-size: 23px;
+  }
+
+  h3 {
+    font-size: 19px;
+  }
+
+  .newsLetter input {
+    width: 150px;
+    margin: 0px;
+    padding: 6px;
+  }
+  .post-text {
+    align-items: flex-start;
+  }
+  .message {
+    margin-bottom: 20px;
+  }
+  .activity-check {
+    display: none;
+  }
+  .career-img img {
+    width: inherit;
+  }
+  .career-images {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .career-cards {
+    margin-bottom: 30px;
+  }
+  .contract-input {
+    width: 100%;
+  }
+  .contract-textarea {
+    width: 100%;
+  }
+  .service-section-4 {
+    margin: 0px;
+    padding: 0px;
+  }
+  .main-button {
+    font-size: 12px;
+  }
+
+  .sub-button {
+    font-size: 9px;
+  }
+
+  /* common style ends   */
+
+  /* header section */
+  .navbar-toggler {
+    margin-left: 270px;
+    margin-top: -40px;
+    font-size: 15px;
+  }
+  .top-header-responsive {
+    font-size: 10px;
+  }
+  .email-responsive {
+    display: none;
+  }
+
+  .navbar-brand img {
+    width: 40%;
+    margin-top: 20px;
+  }
+
+  /* about section start here */
+  .about {
+    margin-left: -10px;
+  }
+
+  .sub-card h2 {
+    font-size: 12px;
+    height: 55px;
+    width: 95%;
+  }
+
+  /* single services start here*/
+  .single-service-card {
+    margin-left: 5px;
+  }
+
+  /* single job start here */
+  .form-container {
+    width: 80%;
+    margin-left: 50px;
+  }
+  .number-box {
+    width: 20%;
+  }
+
+  /* single job ends here */
+}
+
+@media (max-width: 360px) {
+  p {
+    font-size: 10px;
+  }
+  b {
+    font-size: small;
+    font-weight: 500;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+  .news-letter {
+    width: 300px;
+  }
+  .post-text {
+    align-items: flex-start;
+  }
+  .news-letter input {
+    width: 150px;
+    margin: 0px;
+    padding: 6px;
+  }
+  .post-text {
+    padding: 0px 0px 0px 0px;
+  }
+  .date-btn {
+    margin-top: -60px;
+  }
+  .img-btn {
+    margin-top: -175px;
+  }
+  .message {
+    margin-bottom: 20px;
+  }
+  .activity-check {
+    display: none;
+  }
+  .career-img img {
+    width: inherit;
+  }
+  .career-images {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .career-cards {
+    margin-bottom: 30px;
+  }
+  .contract-input {
+    width: 100%;
+  }
+  .contract-textarea {
+    width: 100%;
+  }
+  .service-section-4 {
+    margin: 0px;
+    padding: 0px;
+  }
+  .main-button {
+    font-size: 10px;
+  }
+
+  .sub-button {
+    font-size: 8px;
+  }
+  /* common style ends   */
+
+  /* header section */
+  .navbar-toggler {
+    margin-left: 210px;
+    margin-top: -40px;
+    font-size: 10px;
+  }
+  .top-header-responsive {
+    font-size: 10px;
+  }
+  .email-responsive {
+    display: none;
+  }
+
+  .navbar-brand img {
+    width: 40%;
+    margin-top: 20px;
+  }
+
+  /* about section start here */
+  .about {
+    margin-left: -40px;
+  }
+
+  .sub-card h2 {
+    font-size: 12px;
+    height: 55px;
+    width: 95%;
+  }
+
+  /* single services start here*/
+  .single-service-card {
+    margin-left: 5px;
+  }
+
+  /* single job start here */
+  .form-container {
+    width: 80%;
+    margin-left: 50px;
+  }
+  .number-box {
+    width: 20%;
+  }
+
+  /* single job ends here */
+}

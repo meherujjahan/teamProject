@@ -1,0 +1,183 @@
+/* =============================================================
+
+============================================================= */
+/* COMMON STYLE ============= */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+::root {
+  --theme-color: rgb(255, 126, 103);
+  --font-family: "Poppins", sans-serif;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  color: tomato;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* navbar start here    */
+
+.top-header {
+  background-color: tomato;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid tomato;
+  z-index: 50;
+}
+
+.dropdown-menu {
+  width: 260px;
+}
+
+.dropdown-item:hover {
+  width: 230px;
+}
+
+.nav-link {
+  color: #000000;
+}
+
+.button-link {
+  color: #ffffff !important;
+  font-size: 15px;
+}
+
+.menu {
+  width: 19%;
+}
+
+.dropdown-item:hover {
+  color: tomato;
+  border-left: 2px solid tomato;
+  margin-left: 20px;
+}
+
+/* navbar ends here    */
+
+/* service section start here */
+
+/*-------footer start------------*/
+
+.footer-section-1 button {
+  color: white;
+  font-weight: 500;
+  background-color: rgb(248, 120, 73);
+}
+
+.footer-section-2 p {
+  font-size: 15px;
+  font-weight: 500;
+}
+.footer-section-2 h5 {
+  color: tomato;
+}
+.footer-section-2 a {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+.footer-section-2 ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.footer-section-2 li :hover {
+  color: tomato;
+}
+.footer-icon-all ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.icon-footer a {
+  font-size: 25px;
+  color: rgb(253, 252, 252);
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.icon-footer a:hover {
+  color: tomato;
+  z-index: 4;
+  box-shadow: 0 8px 50px rgba(189, 186, 186, 0.2);
+  transform: scale(1.05);
+}
+
+.footer-title {
+  color: rgb(248, 120, 73);
+}
+
+.sub-footer a {
+  color: white;
+  margin: 5px;
+}
+
+.sub-footer a:hover {
+  color: tomato;
+}
+
+/* .sub-footer a {} */
+
+/* footer end here */
+
+@media only screen and (max-width: 688px) {
+  /* header section */
+  .navbar-toggler {
+    background-color: tomato;
+    color: rgb(255, 255, 255);
+    margin-left: 283px;
+    margin-top: -40px;
+    font-size: 10px;
+  }
+  .top-header-responsive {
+    font-size: 10px;
+  }
+  .email-responsive {
+    display: none;
+  }
+
+  .navbar-brand img {
+    width: 40%;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 689px) and (max-width: 1024px) {
+  /* header section */
+  .navbar-toggler {
+    background-color: tomato;
+    color: tomato;
+    margin-left: 660px;
+    margin-top: -70px;
+    font-size: 20px;
+  }
+
+  .top-header-responsive {
+    font-size: 15px;
+  }
+
+  .navbar-brand img {
+    width: 70%;
+    margin-top: 20px;
+  }
+}

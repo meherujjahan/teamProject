@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services page</title>
+    <!-- font awesome CSS  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- responsive.css -->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- AOS css Link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- scroll html section here -->
+    <div class="top"></div>
+
+    <!-------- Added loader -------->
+    <div class="loader-bg">
+      <div class="preloader">
+        <img src="images/loader.gif" alt="spinner" />
+      </div>
+    </div>
+    <!-------- end loader section-------->
+
+    <!-- header section start -->
+    <header>
+      <div
+        class="container-fluid top-header px-5 py-2 d-flex justify-content-between align-items-center"
+      >
+        <div class="top-header-responsive">
+          <span>
+            <i class="fas fa-phone-alt text-white"></i>
+            <a href="tel:+12345678" class="text-white">+1 234 567 8</a>
+          </span>
+          <span class="mx-3 email-responsive">
+            <i class="fas fa-envelope text-white"></i>
+            <a class="text-white" href="mailto:support@creativetheme.net"
+              >support@creativetheme.net</a
+            >
+          </span>
+        </div>
+        <div class="d-flex justify-items-sm-end icon-responsive">
+          <a href="#"> <i class="fa-brands fa-facebook fs-5 text-white"></i></a>
+          <a href="#">
+            <i class="fa-brands fa-linkedin fs-5 mx-2 text-white"></i
+          ></a>
+          <a href="#"> <i class="fa-brands fa-twitter fs-5 text-white"></i></a>
+          <a href="#">
+            <i class="fa-brands fa-youtube fs-5 mx-2 text-white"></i
+          ></a>
+        </div>
+      </div>
+      <!-- Top header end here -->
+
+      <!-- Main header start here -->
+      <div id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <div class="container-fluid px-5">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/Creative-corporate-logo.png" alt="logo" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse right" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-black"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Pages
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item mx-3 my-3" href="pricing.html"
+                        >Pricing</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item mx-3 my-3" href="careers.html"
+                        >Careers</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item mx-3 my-3" href="single-job.html"
+                        >Single Job Page</a
+                      >
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item mx-3 my-3" href="not-found.html"
+                        >404 Page</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item mx-3 my-2" href="service.html "
+                        >Services</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item mx-3 my-3"
+                        href="single-service.html"
+                        >Single Service</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-black"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Blog
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item mx-3 my-2" href="blog.html">
+                        Blog</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item mx-3 my-3"
+                        href="advance-blog.html"
+                        >Blog – Advanced</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item mx-3 my-3" href="single-post.html"
+                        >Single Post Page</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Portfolio
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item mx-3 my-3" href="portfolio.html"
+                        >Portfolio</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item mx-3 my-3"
+                        href="single-portfolio.html"
+                        >Single Portfolio</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="about.html"
+                    >About Us</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="contact.html"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- header section end -->
+
+    <!-- service section start -->
+
+    <main>
+      <!-- service section -1 -->
+      <section class="banner-bg">
+        <div class="container container-sm">
+          <div class="row py-5">
+            <div
+              class="service-section-1 d-flex align-items-center col col-lg-6 col-md-12 col-12 lh-lg"
+            >
+              <div>
+                <b> SERVICES </b>
+                <h1><span class="theme-color"> Services</span> We Offer!</h1>
+                <p>
+                  At vero eos et accusamus iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque corrupti quos
+                  at dolores molestias excepturi sint occaecati cupiditate.
+                </p>
+                <button class="main-button fw-bold text-white" formaction="#">
+                  VIEW SERVICES
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+            <div class="col col-lg-6 col-md-12 col-12">
+              <img
+                class="img-fluid"
+                src="images/Molti-Services-ill.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- service-section-2 -->
+
+      <section>
+        <div class="container container-sm">
+          <div class="row my-5 py-5">
+            <div class="col col-lg-6 col-md-12 col-12">
+              <div data-aos="zoom-in-right" data-aos-duration="2000">
+                <img
+                  class="img-fluid"
+                  src="images/Molti-Services-illust-2-.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              class="service-section-1 d-flex align-items-center col col-lg-6 col-md-12 col-12 lh-lg"
+            >
+              <div data-aos="zoom-in-left">
+                <h2 class="lh-base">
+                  We Provide a Complete <br />
+                  Solution for your
+                  <span class="theme-color">
+                    Online <br />
+                    Business</span
+                  >
+                </h2>
+                <p>
+                  Nec feugiat nisl pretium fusce id velit ut tortor pretium
+                  viverra suspendisse potenti nullam ac tortor vitae purus
+                  faucibus ornare suspendisse sed nisi lacus sed viverra tellus
+                  in hac habitasse.
+                </p>
+                <p>
+                  Ac tortor vitae purus faucibus ornare suspendisse sed nisi
+                  lacus sed viverra tellus in hac habitasse.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- service section -3 -->
+
+      <section>
+        <div class="container container-sm">
+          <div class="row mb-5 pb-5">
+            <div
+              class="service-section-1 d-flex align-items-center col col-lg-6 col-md-12 col-12 lh-lg"
+            >
+              <div data-aos="zoom-in-right">
+                <h2 class="lh-base">
+                  We’re a Team of
+                  <span class="theme-color"> Professional People</span> around
+                  the World
+                </h2>
+                <p>
+                  Nec feugiat nisl pretium fusce id velit ut tortor pretium
+                  viverra suspendisse potenti nullam ac tortor vitae purus
+                  faucibus ornare suspendisse sed nisi lacus sed viverra tellus
+                  in hac habitasse.
+                </p>
+                <p>
+                  Ac tortor vitae purus faucibus ornare suspendisse sed nisi
+                  lacus sed viverra tellus in hac habitasse.
+                </p>
+              </div>
+            </div>
+            <div class="col col-lg-6 col-md-12 col-12">
+              <div data-aos="zoom-in-left">
+                <img
+                  class="img-fluid"
+                  src="images/Molti-Services-illust-3.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- service section -4 -->
+
+      <section class="service-section-4 banner-color-3 py-5 mb-5">
+        <div class="container container-sm">
+          <div class="text-center mb-3">
+            <h1 class="underline">
+              Our Services <span class="theme-color">Process</span>
+            </h1>
+            <p>
+              Nec feugiat nisl pretium fusce id velit ut tortor pretium <br />
+              viverra suspendisse potenti nullam ac tortor.
+            </p>
+          </div>
+          <div class="text-center">
+            <img
+              class="img-fluid"
+              src="images/590-5904628_we-development-process-website-development-services-process-hd-removebg-preview.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- service-section-5 -->
+
+      <section class="service-section-5">
+        <div>
+          <div class="text-center mb-5">
+            <h1 class="underline">
+              Our <span class="theme-color">Services</span>
+            </h1>
+            <p class="text-center">
+              Nec feugiat nisl pretium fusce id velit ut tortor pretium <br />
+              viverra suspendisse potenti nullam ac tortor.
+            </p>
+          </div>
+          <div class="container container-sm">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="service-section-5-card card">
+                  <img
+                    src="images/Web-Design.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Web Design</h5>
+                    <p class="card-text text-center">
+                      Et harum quidem rerum facilis expedita distinctio nam
+                      libero tempore cum quibusdam nobis..
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="service-section-5-card card">
+                  <img
+                    src="images/web-developement.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Web Development</h5>
+                    <p class="card-text text-center">
+                      Et harum quidem rerum facilis expedita distinctio nam
+                      libero tempore cum quibusdam nobis..
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="service-section-5-card card">
+                  <img
+                    src="images/molti-hosting-service.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Web Hosting</h5>
+                    <p class="card-text text-center">
+                      Et harum quidem rerum facilis expedita distinctio nam
+                      libero tempore cum quibusdam nobis..
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="service-section-5-card card">
+                  <img
+                    src="images/Molti-Logo-Design.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Logo Design</h5>
+                    <p class="card-text text-center">
+                      Et harum quidem rerum facilis expedita distinctio nam
+                      libero tempore cum quibusdam nobis..
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="service-section-5-card card">
+                  <img
+                    src="images/Molti-White-Label.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">White Labeling</h5>
+                    <p class="card-text text-center">
+                      Et harum quidem rerum facilis expedita distinctio nam
+                      libero tempore cum quibusdam nobis..
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="service-section-5-card card">
+                  <img
+                    src="images/Molti-Social-Media-Mangement-Icon.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Social Media Management</h5>
+                    <p class="card-text text-center">
+                      Et harum quidem rerum facilis expedita distinctio nam
+                      libero tempore cum quibusdam nobis..
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="service-section-5-card card">
+                  <img
+                    src="images/Molti-IOS-App-Development.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">IOS App Development</h5>
+                    <p class="card-text text-center">
+                      Et harum quidem rerum facilis expedita distinctio nam
+                      libero tempore cum quibusdam nobis..
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="service-section-5-card card">
+                  <img
+                    src="images/Molti-Android-App-Development.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Android App Development</h5>
+                    <p class="card-text text-center">
+                      Et harum quidem rerum facilis expedita distinctio nam
+                      libero tempore cum quibusdam nobis..
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="service-section-5-card card">
+                  <img
+                    src="images/Molti-Chatbot.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Chatbot Development</h5>
+                    <p class="card-text text-center">
+                      Et harum quidem rerum facili expedita distinctio nam
+                      libero tempore cum quibusdam nobis..
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center m-5">
+            <button
+              class="main-button fw-bold text-white btn-lg"
+              formaction="#"
+            >
+              CONTACT US NOW TO GET ANY OF THESE SERVICES
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- service section -6 -->
+
+      <section>
+        <div class="container container-sm">
+          <div class="text-center text-black">
+            <b> We’re trusted by over 70,000+ Businesses all over the World </b>
+            <br />
+            <hr />
+            <img
+              class="img-fluid trusted-client-img my-4"
+              src="images/trusted-clients.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- service section- 7 -->
+
+      <!-- client review section -->
+
+      <section class="service-section-7 container mt-5">
+        <div class="row">
+          <div class="col col-lg-6 col-md-12 col-12">
+            <div class="row my-5">
+              <div class="col client-images">
+                <a onclick="seeComment('1')"
+                  ><img
+                    class="client-image rounded-3 img-fluid mb-4"
+                    src="images/Image1.jpg "
+                    alt=""
+                /></a>
+                <a onclick="seeComment('2')">
+                  <img
+                    class="client-image rounded-3 img-fluid"
+                    src="images/Image2.jpg"
+                    alt=""
+                /></a>
+              </div>
+
+              <div class="col client-images">
+                <a onclick="seeComment('3')">
+                  <img
+                    class="client-image rounded-3 img-fluid mb-4"
+                    src="images/Image3.jpg"
+                    alt=""
+                /></a>
+                <a onclick="seeComment('4')">
+                  <img
+                    class="client-image rounded-3 img-fluid"
+                    src="images/Image4.jpg"
+                    alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col col-lg-6 col-md-12 py-5 col-12 d-flex align-items-center"
+          >
+            <div>
+              <div>
+                <h1 class="underline">
+                  We are <span class="theme-color">Loved ♥️</span> by our
+                  Trusted Clients.
+                </h1>
+                <p>
+                  Ac tortor vitae purus faucibus ornare suspendise sed nisi
+                  lacus sed viverra tellus in hac habitasse
+                </p>
+                <hr />
+              </div>
+
+              <!-- client comment section  -->
+
+              <div id="1" class="comment lh-lg">
+                <p>
+                  Senectus et netus et malesuada fames ac turpis egestas
+                  maecenas pharetra convallis posuere morbi leo urna molestie at
+                  elementum eu facilisis sed odio morbi quis commodo odio aenean
+                  sed adipiscin.
+                </p>
+                <h1><span class="theme-color">Firat Hicks</span></h1>
+                <b class="text-secondary"> Founder of xyz.com </b>
+              </div>
+              <div id="2" style="display: none" class="comment">
+                <p class="lh-lg">
+                  Quis blandit turpis cursus in hac habitasse platea dictumst
+                  quisque sagittis purus sit amet volutpat consequat mauris nunc
+                  congue nisi in hac habitasse platea dictumst
+                </p>
+                <h1><span class="theme-color">Sarah Morrison</span></h1>
+                <b class="text-secondary"> Founder of xyz.com </b>
+              </div>
+              <div id="3" style="display: none" class="comment">
+                <p class="lh-lg">
+                  Rhoncus mattis rhoncus urna neque viverra justo nec ultrices
+                  dui sapien eget mi proin sed libero enim sed faucibus turpis
+                  in eu mi bibendum neque rhoncus urna neque viverra justo nec
+                </p>
+                <h1><span class="theme-color">Leland Bloggs</span></h1>
+                <b class="text-secondary"> Founder of xyz.com </b>
+              </div>
+              <div id="4" style="display: none" class="comment">
+                <p class="lh-lg">
+                  Pellentesque habitant morbi tristique senectus et netus et
+                  malesuada fames ac turpis egestas integer eget aliquet nibh
+                  praesent tristique magna sit amet purus gravida quis blandit
+                  turpis cursus in hac
+                </p>
+                <h1><span class="theme-color">Jessica Morrison</span></h1>
+                <b class="text-secondary"> Founder of xyz.com </b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- seervice section -8 -->
+
+      <section>
+        <div class="container service-section-8">
+          <div class="row my-5">
+            <!-- column -1 -->
+            <div class="col">
+              <div class="lh-lg">
+                <h1 class="underline">
+                  Why <span class="theme-color">Choose</span> Us?
+                </h1>
+                <p>
+                  Ac tortor vitae purus faucibus ornare suspendisse sed nisi
+                  lacus sed viverra tellus in hac habitasse.
+                </p>
+              </div>
+
+              <div class="service-section-8-title d-flex gap-3">
+                <i class="fa-solid fa-check"></i>
+                <div>
+                  <h5>Quisque id diam vel quam</h5>
+                  <p>
+                    Senectus et netus et malesuada fames ac turpis egestas
+                    maecenas pharetra convallis posuere morbi
+                  </p>
+                </div>
+              </div>
+
+              <div class="service-section-8-title my-3 d-flex gap-3">
+                <i class="fa-solid fa-check"></i>
+                <div>
+                  <h5>Sagittis eu volutpat odio facilisis</h5>
+                  <p>
+                    Senectus et netus et malesuada fames ac turpis egestas
+                    maecenas pharetra convallis posuere morbi.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- coloum-2 -->
+
+            <div class="col col-lg-6 col-md-12 col-12">
+              <!-- image animation with AOS-->
+
+              <div class="d-flex align-items-center g-1">
+                <div data-aos="fade-right">
+                  <img
+                    class="img-fluid rounded-3 h-auto"
+                    src="images/Image-1.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div data-aos="fade-left">
+                  <img
+                    class="img-fluid px-1 h-auto"
+                    src="images/Office-Image-5.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!----------- service section end ------------>
+
+    <!------------- footer section start ---------->
+
+    <footer class="bg-dark">
+      <div class="footer-section container-fluid px-5 text-white pt-5">
+        <div class="row">
+          <div class="footer-section-1 mb-2 col col-lg-4 col-md-12 col-12">
+            <div>
+              <a href="index.html">
+                <img src="images/Creative-corporate-logo.png" alt="logo" />
+              </a>
+              <p class="text-white">
+                Creative Corporate is a Professionally Designed for
+                Multipurpose.And you can use it to create almost any kind of
+                Website for any kind of business.<br />If you need to create a
+                custom website of need to add custom features to this, then fell
+                free to contact us.
+              </p>
+            </div>
+            <hr />
+
+            <h6 class="theme-color">Follow Us:</h6>
+
+            <div class="footer-icon-all">
+              <ul class="icon-footer d-flex gap-4">
+                <li>
+                  <a href="#"> <i class="fa-brands fa-facebook-f">f</i></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="icon-footer fa-brands fa-twitter">t</i></a
+                  >
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="icon-footer fa-brands fa-instagram">i</i></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="icon-footer fa-brands fa-dribbble">b</i></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-section-2 mt-2 lh-lg col col-lg-2 col-md-6 col-12">
+            <h5 class="fw-bold">NAVIGATE</h5>
+            <ul class="fs-6">
+              <li>
+                <a href="index.html">Homepage</a>
+              </li>
+              <li>
+                <a href="careers.html">Careers</a>
+              </li>
+              <li>
+                <a href="#">News</a>
+              </li>
+              <li>
+                <a href="#">Affiliates</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section-2 mt-2 lh-lg col col-lg-2 col-md-6 col-12">
+            <h5 class="fw-bold">RESOURCES</h5>
+            <ul class="fs-6">
+              <li>
+                <a href="blog.html">Blog</a>
+              </li>
+              <li>
+                <a href="#">Documentation</a>
+              </li>
+              <li>
+                <a href="#">Community</a>
+              </li>
+              <li>
+                <a href="pricing.html">Pricing</a>
+              </li>
+              <li>
+                <a href="#">Design Case</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section-2 mt-2 lh-lg col col-lg-2 col-md-6 col-12">
+            <h5 class="fw-bold">COMPANY</h5>
+            <ul>
+              <li>
+                <a href="service.html">Services</a>
+              </li>
+              <li>
+                <a href="about.html">About Us</a>
+              </li>
+              <li>
+                <a href="#">Happy Customer</a>
+              </li>
+              <li>
+                <a href="portfolio.html">Portfolio</a>
+              </li>
+              <li>
+                <a href="#">Help Center</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section-2 mt-2 lh-lg col col-lg-2 col-md-6 col-12">
+            <h5 class="fw-bold">Help</h5>
+            <ul class="fs-6">
+              <li>
+                <a href="https://wa.me/message/UV4AAS7E6P75A1" target="_blank"
+                  ><i class="fa-brands fa-whatsapp pe-2"></i> +880 1712384172</a
+                >
+              </li>
+              <li>
+                <a href="mailto:support@creativetemplate.co"
+                  ><i class="fa-solid fa-envelope"></i>
+                  support@creativetemplate.co</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-location-dot"></i> Mongla, Khulna,
+                  Bangladesh.
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- sub footer start  -->
+        <hr />
+
+        <div class="sub-footer text-center lh-lg d-grid justify-content-around">
+          <div>
+            <a href="terms.html">Terms</a>
+            <a href="faqs.html">Faqs</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+          </div>
+          <div>
+            <p class="text-white text-muted">
+              &copy; <span id="year"></span> | All rights reserved by
+
+              <span>
+                <a
+                  style="color: tomato"
+                  href="https://www.creativetemplate.co"
+                  target="_blank"
+                  >Creative Template</a
+                >
+              </span>
+              . Powered by
+              <span>
+                <a
+                  style="color: tomato"
+                  href="https://www.semiclone.com"
+                  target="_blank"
+                  >Semiclone Inc</a
+                >
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- footer section start -->
+
+    <!-- footer section end -->
+
+    <!-------  scroll html ------->
+    <div class="scrolltop">
+      <div class="scroll icon">
+        <i class="fa fa-rocket" aria-hidden="true"></i>
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jQuery.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

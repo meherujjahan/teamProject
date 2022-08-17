@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome CSS  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- responsive.css -->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <title>Careers Page</title>
+  </head>
+
+  <body>
+    <!-- scroll html section here -->
+    <div class="top"></div>
+
+    <!-------- Added loader -------->
+    <div class="loader-bg">
+      <div class="preloader">
+        <img src="images/loader.gif" alt="spinner" />
+      </div>
+    </div>
+    <!-------- end loader section-------->
+
+    <!-----------Header Start here----------->
+    <header>
+      <div
+        class="container-fluid top-header px-5 py-2 d-flex justify-content-between align-items-center"
+      >
+        <div class="top-header-responsive">
+          <span>
+            <i class="fas fa-phone-alt text-white"></i>
+            <a href="tel:+12345678" class="text-white">+1 234 567 8</a>
+          </span>
+          <span class="mx-3 email-responsive">
+            <i class="fas fa-envelope text-white"></i>
+            <a class="text-white" href="mailto:support@creativetheme.net"
+              >support@creativetheme.net</a
+            >
+          </span>
+        </div>
+        <div class="d-flex justify-items-sm-end icon-responsive">
+          <a href="#"> <i class="fa-brands fa-facebook fs-5 text-white"></i></a>
+          <a href="#">
+            <i class="fa-brands fa-linkedin fs-5 mx-2 text-white"></i
+          ></a>
+          <a href="#"> <i class="fa-brands fa-twitter fs-5 text-white"></i></a>
+          <a href="#">
+            <i class="fa-brands fa-youtube fs-5 mx-2 text-white"></i
+          ></a>
+        </div>
+      </div>
+      <!-- Top header end here -->
+
+      <!-- Main header start here -->
+      <div id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <div class="container-fluid px-5">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/Creative-corporate-logo.png" alt="logo" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse right" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-black"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Pages
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item mx-3 my-3" href="pricing.html"
+                        >Pricing</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item mx-3 my-3" href="careers.html"
+                        >Careers</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item mx-3 my-3" href="single-job.html"
+                        >Single Job Page</a
+                      >
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item mx-3 my-3" href="not-found.html"
+                        >404 Page</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item mx-3 my-2" href="service.html "
+                        >Services</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item mx-3 my-3"
+                        href="single-service.html"
+                        >Single Service</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-black"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Blog
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item mx-3 my-2" href="blog.html">
+                        Blog</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item mx-3 my-3"
+                        href="advance-blog.html"
+                        >Blog – Advanced</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item mx-3 my-3" href="single-post.html"
+                        >Single Post Page</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Portfolio
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item mx-3 my-3" href="portfolio.html"
+                        >Portfolio</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item mx-3 my-3"
+                        href="single-portfolio.html"
+                        >Single Portfolio</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="about.html"
+                    >About Us</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="contact.html"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!------------ header end here ------------>
+
+    <!------------------------
+                career page start here 
+-              ------------------------->
+    <main>
+      <!-- career section- 1 -->
+      <section id="career-1" class="banner-color career-section-1">
+        <div class="container container-sm container-md">
+          <div class="row py-5">
+            <div
+              class="col col-lg-6 lh-lg col-md-12 col-12 d-flex align-items-center"
+            >
+              <div>
+                <b> CAREERS</b>
+                <h1>
+                  Join our Team at
+                  <span class="theme-color">Creative Corporate</span>
+                </h1>
+                <div class="text-secondary fw-light">
+                  <p>
+                    At vero eos et accusamus iusto odio dignissimos ducimus qui
+                    blanditiis praesentium voluptatum deleniti atque corrupti
+                    quos at dolores molestias excepturi sint occaecati
+                    cupiditate.
+                  </p>
+                </div>
+                <a href="#career-4">
+                  <button class="main-button text-white fw-bold" formaction="#">
+                    VIEW OPEN JOBS <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                </a>
+              </div>
+            </div>
+
+            <div class="col col-lg-6 col-md-12 col-12">
+              <img
+                class="img-fluid w-100"
+                src="images/Molti-Careers-Illustration.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- career section -2 -->
+      <section class="career-section-2 my-5">
+        <div class="container">
+          <div class="row">
+            <!-- colum 1 -->
+            <div class="col career-cards col-lg-6 col-md-12 col-12">
+              <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                  <div class="card border-0 career-card">
+                    <img
+                      src="images/Molti-Beautiful-Workspace.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="fw-bold text-center text-dark card-title">
+                        Beautiful Workspace
+                      </h5>
+                      <p class="text-center card-text">
+                        Your content goes here. Edit or remove this text inline
+                        or in the module Content settings.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 career-card">
+                    <img
+                      src="images/Molti-Aweomse-People.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="fw-bold text-dark text-center card-title">
+                        Great People
+                      </h5>
+                      <p class="text-center card-text">
+                        Your content goes here. Edit or remove this text inline
+                        or in the module Content settings.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 career-card">
+                    <img
+                      src="images/Molti-Competetive-Salary.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="fw-bold text-dark text-center card-title">
+                        Competitive Salary
+                      </h5>
+                      <p class="text-center card-text">
+                        Your content goes here. Edit or remove this text inline
+                        or in the module Content settings.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 career-card">
+                    <img
+                      src="images/Molti-Free-Food-and-Snacks.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="fw-bold text-dark text-center card-title">
+                        Free Food & Snacks
+                      </h5>
+                      <p class="text-center card-text">
+                        Your content goes here. Edit or remove this text inline
+                        or in the module Content settings.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 career-card">
+                    <img
+                      src="images/Molti-Company-Parties.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="fw-bold text-dark text-center card-title">
+                        Company Parties
+                      </h5>
+                      <p class="text-center card-text">
+                        Your content goes here. Edit or remove this text inline
+                        or in the module Content settings.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 career-card">
+                    <img
+                      src="images/Molti-Company-Trips.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="fw-bold text-dark text-center card-title">
+                        Company Trips
+                      </h5>
+                      <p class="text-center card-text">
+                        Your content goes here. Edit or remove this text inline
+                        or in the module Content settings.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="career-section-2 d-flex align-items-center col col-lg-6 col-md-12 col-12"
+            >
+              <div>
+                <h1 class="lh-base underline">
+                  <span class="theme-color">Benefits</span> of working with
+                  Creative Corporate.
+                </h1>
+                <div class="lh-lg">
+                  <p>
+                    Morbi tempus iaculis urna id volutpat lacus laoreet non
+                    curabitur gravida arcu ac tortor dignissim convallis aenean
+                    et tortor at risus viverra adipiscing.
+                  </p>
+
+                  <p>
+                    Morbi tempus iaculis urna id volutpat lacus laoreet non
+                    curabitur gravida arcu ac tortor dignissim convallis aenean
+                    et tortor at risus viverra adipiscing
+                    <span class="theme-color"> . </span>
+                  </p>
+                  <a href="#career-4"
+                    ><button
+                      class="main-button text-white fw-bold"
+                      formaction="#"
+                    >
+                      VIEW OPEN JOBS<i
+                        class="fa-solid fa-arrow-right"
+                      ></i></button
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- career-section-3 -->
+      <section>
+        <div class="career-section-3 container container-sm my-5">
+          <div class="text-center my-5">
+            <h1 class="underline fw-bold lh-base">
+              We are located in <span class="theme-color"> San Fransisco</span>
+            </h1>
+            <p>
+              Morbi tempus iaculis urna id volutpat lacus laoreet non curabitur
+              gravida arcu ac tortor dignissim convallis aenean et tortor at
+              risus viverra adipiscing.
+            </p>
+          </div>
+
+          <div class="container container-sm container-md">
+            <div class="row career-images">
+              <div class="career-img col">
+                <img
+                  class="mb-4 rounded-3"
+                  src="images/Office-Image-1.jpg"
+                  alt=""
+                />
+                <img class="rounded-3" src="images/Office-Image-2.jpg" alt="" />
+              </div>
+
+              <div class="career-img col">
+                <img
+                  class="mb-4 rounded-3"
+                  src="images/Office-Image-3.jpg"
+                  alt=""
+                />
+                <img class="rounded-3" src="images/Office-Image-4.jpg" alt="" />
+              </div>
+              <div class="career-img col">
+                <img
+                  class="mb-4 rounded-3"
+                  src="images/Office-Image-6.jpg"
+                  alt=""
+                />
+                <img class="rounded-3" src="images/Office-Image-5.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- career-section-4 -->
+      <section id="career-4">
+        <div class="container container-sm my-5">
+          <div class="text-center">
+            <h1 class="fw-bold underline m-auto">
+              Current <span class="theme-color"> Openings!</span>
+            </h1>
+          </div>
+
+          <div>
+            <div class="row row-cols-1 my-5 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card border-0 h-100">
+                  <div class="job-card card-body">
+                    <h4 class="fw-bold lh-base card-title">Email Support</h4>
+                    <b>Full-time</b>
+                    <p class="py-2 card-text">
+                      Et harum quidem rerum facilis expedita distinctio nam
+                      libero tempore cum quibusdam nobis.
+                    </p>
+                    <a href="#career-1">
+                      <button
+                        class="fw-bold rounded-3 apply-button"
+                        formaction="#"
+                      >
+                        APPLY NOW
+                        <i class="fa-solid fa-arrow-right"></i></button
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 h-100">
+                  <div class="job-card card-body">
+                    <h4 class="fw-bold lh-base card-title">
+                      Wordpress Developer
+                    </h4>
+                    <b>Part time</b>
+                    <p class="py-2 card-text">
+                      Et harum quidem rerum facilis expedita distinctio nam
+                      libero tempore cum quibusdam nobis.
+                    </p>
+                    <a href="#career-1">
+                      <button
+                        class="fw-bold rounded-3 apply-button"
+                        formaction="#"
+                      >
+                        APPLY NOW
+                        <i class="fa-solid fa-arrow-right"></i></button
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 h-100">
+                  <div class="job-card card-body">
+                    <h4 class="fw-bold lh-base card-title">Sales Manager</h4>
+                    <b>Full-time</b>
+                    <p class="py-2 text-p card-text">
+                      Et harum quidem rerum facilis expedita distinctio nam
+                      libero tempore cum quibusdam nobis.
+                    </p>
+                    <a href="#career-1">
+                      <button
+                        class="fw-bold rounded-3 apply-button"
+                        formaction="#"
+                      >
+                        APPLY NOW
+                        <i class="fa-solid fa-arrow-right"></i></button
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 h-100">
+                  <div class="job-card card-body">
+                    <h4 class="fw-bold lh-base card-title">Graphic Designer</h4>
+                    <b>Full-time</b>
+                    <p class="py-2 text-p card-text">
+                      Et harum quidem rerum facilis expedita distinctio nam
+                      libero tempore cum quibusdam nobis.
+                    </p>
+                    <a href="#career-1">
+                      <button
+                        class="fw-bold rounded-3 apply-button"
+                        formaction="#"
+                      >
+                        APPLY NOW
+                        <i class="fa-solid fa-arrow-right"></i></button
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 h-100">
+                  <div class="job-card card-body">
+                    <h4 class="fw-bold lh-base card-title">Product designer</h4>
+                    <b>Full-time</b>
+                    <p class="py-2 text-p card-text">
+                      Et harum quidem rerum facilis expedita distinctio nam
+                      libero tempore cum quibusdam nobis.
+                    </p>
+                    <a href="#career-1">
+                      <button
+                        class="fw-bold rounded-3 apply-button"
+                        formaction="#"
+                      >
+                        APPLY NOW
+                        <i class="fa-solid fa-arrow-right"></i></button
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 h-100">
+                  <div class="job-card card-body">
+                    <h4 class="fw-bold lh-base card-title">Digital Marketer</h4>
+                    <b>Part time</b>
+                    <p class="py-2 text-p card-text">
+                      Et harum quidem rerum facilis expedita distinctio nam
+                      libero tempore cum quibusdam nobis.
+                    </p>
+                    <a href="#career-1">
+                      <button
+                        class="fw-bold rounded-3 apply-button"
+                        formaction="#"
+                      >
+                        APPLY NOW
+                        <i class="fa-solid fa-arrow-right"></i></button
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--------------------- 
+        footer Section 
+    ----------------------->
+    <footer>
+      <div class="footer-section bg-dark text-white px-4 pt-5">
+        <div class="row">
+          <div class="footer-section-1 mb-2 col col-lg-4 col-md-12 col-12">
+            <div>
+              <a href="index.html">
+                <img src="images/Creative-corporate-logo.png" alt="logo" />
+              </a>
+              <p class="text-white">
+                Creative Corporate is a Professionally Designed for
+                Multipurpose.And you can use it to create almost any kind of
+                Website for any kind of business.<br />If you need to create a
+                custom website of need to add custom features to this, then fell
+                free to contact us.
+              </p>
+            </div>
+            <hr />
+
+            <h6>Follow Us:</h6>
+
+            <div class="footer-icon-all">
+              <ul class="icon-footer d-flex gap-4">
+                <li>
+                  <a href="#"> <i class="fa-brands fa-facebook-f">f</i></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="icon-footer fa-brands fa-twitter">t</i></a
+                  >
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="icon-footer fa-brands fa-instagram">i</i></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="icon-footer fa-brands fa-dribbble">b</i></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-section-2 mt-2 lh-lg col col-lg-2 col-md-6 col-12">
+            <h5 class="fw-bold">NAVIGATE</h5>
+            <ul class="fs-6">
+              <li>
+                <a href="index.html">Homepage</a>
+              </li>
+              <li>
+                <a href="careers.html">Careers</a>
+              </li>
+              <li>
+                <a href="#">News</a>
+              </li>
+              <li>
+                <a href="#">Affiliates</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section-2 mt-2 lh-lg col col-lg-2 col-md-6 col-12">
+            <h5 class="fw-bold">RESOURCES</h5>
+            <ul class="fs-6">
+              <li>
+                <a href="blog.html">Blog</a>
+              </li>
+              <li>
+                <a href="#">Documentation</a>
+              </li>
+              <li>
+                <a href="#">Community</a>
+              </li>
+              <li>
+                <a href="pricing.html">Pricing</a>
+              </li>
+              <li>
+                <a href="#">Design Case</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section-2 mt-2 lh-lg col col-lg-2 col-md-6 col-12">
+            <h5 class="fw-bold">COMPANY</h5>
+            <ul>
+              <li>
+                <a href="service.html">Services</a>
+              </li>
+              <li>
+                <a href="about.html">About Us</a>
+              </li>
+              <li>
+                <a href="#">Happy Customer</a>
+              </li>
+              <li>
+                <a href="portfolio.html">Portfolio</a>
+              </li>
+              <li>
+                <a href="#">Help Center</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section-2 mt-2 lh-lg col col-lg-2 col-md-6 col-12">
+            <h5 class="fw-bold">Help</h5>
+            <ul class="fs-6">
+              <li>
+                <a href="tel:+12345678"
+                  ><i class="fa-solid fa-phone"></i> +1 234 567 8</a
+                >
+              </li>
+              <li>
+                <a href="mailto:support@creativetheme.net"
+                  ><i class="fa-solid fa-envelope"></i> support@creative
+                  theme.net</a
+                >
+              </li>
+              <li>
+                <p>
+                  <a href="#"
+                    ><i class="fa-solid fa-location-dot"></i> 49 Unique Square
+                    D, New York,</a
+                  >
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- sub footer start  -->
+        <hr />
+
+        <div class="sub-footer text-center lh-lg d-grid justify-content-around">
+          <div>
+            <a href="terms.html">Terms</a>
+            <a href="faqs.html">Faqs</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+          </div>
+          <div>
+            <p class="text-white">
+              &copy; <span id="year"></span> | All rights reserved by
+
+              <span>
+                <a
+                  style="color: tomato"
+                  href="https://www.template.creativetheme.net"
+                  target="_blank"
+                  >Creative Template</a
+                >
+              </span>
+              . Powered by
+              <span>
+                <a
+                  style="color: tomato"
+                  href="https://www.semiclone.com"
+                  target="_blank"
+                  >Semiclone Inc</a
+                >
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-------------------
+     footer section end 
+    -------------------->
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/jQuery.min.js"></script>
+    <script src="/js/all.min.js"></script>
+    <script src="/js/custom.js"></script>
+
+    <!-------  scroll ------->
+  </body>
+</html>

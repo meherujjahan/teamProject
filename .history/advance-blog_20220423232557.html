@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advance blog</title>
+    <!-- font awesome CSS  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- responsive.css -->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- font awesome -->
+  </head>
+
+  <body>
+    <!-- scroll html section here -->
+    <div class="top"></div>
+
+    <!-------- Added loader -------->
+    <div class="loader-bg">
+      <div class="preloader">
+        <img src="images/loader.gif" alt="spinner" />
+      </div>
+    </div>
+    <!-------- end loader section-------->
+
+    <!-----------Top Header Start here----------->
+    <header>
+      <div
+        class="container-fluid top-header px-5 py-2 d-flex justify-content-between align-items-center"
+      >
+        <div class="top-header-responsive">
+          <span>
+            <i class="fas fa-phone-alt text-white"></i>
+            <a href="tel:+12345678" class="text-white">+1 234 567 8</a>
+          </span>
+          <span class="mx-3 email-responsive">
+            <i class="fas fa-envelope text-white"></i>
+            <a class="text-white" href="mailto:support@creativetheme.net"
+              >support@creativetheme.net</a
+            >
+          </span>
+        </div>
+
+      </nav>
+    </div>
+  </header>
+  <!-- Main header end here -->
+
+
+  <!-- advance blog section-1-->
+  <section class="mt-5">
+    <div class="container">
+      <div class="row">
+        <h2>Latest <span class="theme-color">Post</span></h2>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <img src="images/pexels-lumn-399161-1080x675.jpg" alt="" class="rounded w-100" >
+            <div class="text">
+              <h3>Sollicitudin ac orci phasellus egestas</h3>
+              <p class="date">by SamarJ | Dec 29, 2020 | Business</p>
+            </div>
+        </div>
+
+
+        <div class="col-lg-6 col-md-6 col-sm-12 advance-box">
+          <div class="advance-nav text-center mt-5">
+            <button onclick="showBlog('1')" class="advance-nav-button mx-4 m-2 p-2" formaction="#">Featured</button>
+            <button onclick="showBlog('2')" class="advance-nav-button mx-4 m-2 p-2" formaction="#">Recent</button>
+          </div>
+            
+
+
+          <div class="advance-scroll">
+            <div id="1" class="advanceBlog">
+              <div class="d-flex mt-5">
+                <div class="col-lg-5 col-md-5 col-sm-5">
+                  <img src="images/featured-1.jpg" alt="" class="w-100 rounded">
+                </div>
+
+                <div class="col-lg-7 col-md-7 col-sm-7">
+                  <div class="mx-4">
+                    <p class="fw-bold pointer title">Sollicitudin ac orci phasellus egestas</p>
+                    <p>Dec 29, 2020</p>
+                 </div>
+                </div>
+              </div>
+
+
+              <div class="d-flex mt-5">
+                <div class="col-lg-5 col-md-5 col-sm-5">
+                  <img src="images/featured-2.jpg" alt="" class="w-100 rounded">
+                </div>
+
+                <div class="col-lg-7 col-md-7 col-sm-7">
+                 <div class="mx-4">
+                    <p class="fw-bold pointer title">Risus sed vulputate odio ut enim blandit eiu tempor incididunt</p>
+                    <p>Dec 29, 2020</p>
+                 </div>
+                </div>
+              </div>
+
+
+              <div class="d-flex mt-5">
+                <div class="col-lg-5 col-md-5 col-sm-5">
+                  <img src="images/featured-3.jpg" alt="" class="w-100 rounded">
+                </div>
+
+                <div class="col-lg-7 col-md-7 col-sm-7">
+                  <div class="mx-4">
+                    <p class="fw-bold pointer title">Adipiscing vitae proin sagittis nisl rhoncus mattis</p>
+                    <p>Dec 29, 2020</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+            <div id="2" class="advanceBlog">
+              <div class="d-flex mt-5">
+                <div class="col-lg-5 col-md-5 col-sm-5">
+                  <img src="images/pexels-lumn-399161-1080x675.jpg" alt="" class="w-100 rounded">
+                </div>
+
+                <div class="col-lg-7 col-md-7 col-sm-7">
+                  <div class="mx-4">
+                    <p class="fw-bold pointer title">Sollicitudin ac orci phasellus egestas</p>
+                    <p>Dec 29, 2020</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="d-flex mt-5">
+                <div class="col-lg-5 col-md-5 col-sm-5">
+                  <img src="images/featured-2.jpg" alt="" class="w-100 rounded">
+                </div>
+
+                <div class="col-lg-7 col-md-7 col-sm-7">
+                  <div class="mx-4">
+                    <p class="fw-bold pointer title">Risus sed vulputate odio ut enim blandit eiu tempor incididunt</p>
+                    <p>Dec 29, 2020</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="d-flex mt-5">
+                <div class="col-lg-5 col-md-5 col-sm-5">
+                  <img src="images/recent-3.jpg" alt="" class="w-100 rounded">
+                </div>
+
+                <div class="col-lg-7 col-md-7 col-sm-7">
+                  <div class="mx-4">
+                    <p class="fw-bold pointer title">Adipiscing vitae proin sagittis nisl rhoncus mattis</p>
+                    <p>Dec 29, 2020</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="text-end text-dark">
+            <a href="#">View All Recent <i class="fa-solid fa-arrow-right-long"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+        
+
+
+  <!-- advance blog section-2-->
+  <section class="my-5">
+    <div class="container">
+      <!-- left card-1 -->
+      <div class="row">
+        <h2>Today’s <span class="theme-color">Picks</span></h2>
+        <div class="col-lg-8 col-md-8 col-sm-12 advance-card p-3">
+
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-8">
+            <div class="button-card">
+              <div>
+                <img src="images/featured-2.jpg" class="w-100 rounded-3 pointer" alt="...">
+                <div class="img-button">
+                  <button>FEATURED</button> <button>WEBSITE</button>s
+                </div>
+                <div class="date-button"><button>Dec 22</button></div>
+              </div>
+              <div class="p-0">
+                <h5 class="fw-bold title">Sollicitudin ac orci phasellus egestas
+                </h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna...</p>
+              </div>
+            </div>
+          </div>    
+                       
+          
+
+               
+
+                  <div class="col-lg-7 col-md-7 col-sm-7">
+                    <h5 class="advance-tag">
+                      Risus sed vulputate odio ut enim blandit eiu tempor
+                      incididunt
+                    </h5>
+                    <small class="advance-small">Dec 29, 2020</small>
+                  </div>
+                </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-8 advance-sub-card">
+              <div class="d-flex mb-2">
+                <img src="images/featured-3.jpg" alt="" class="w-50 h-25 rounded pointer">
+
+                <div class="m-2">
+                  <h6 class="title fw-bold">Sollicitudin ac orci phasellus egestas</h6>
+                  <p class="advance-small">Dec 29, 2020</p>
+                </div>
+              </div>  
+                
+
+              <div id="2" class="advanceBlog">
+                <div class="d-flex mt-5">
+                  <div class="col-lg-5 col-md-5 col-sm-5">
+                    <img
+                      src="images/pexels-lumn-399161-1080x675.jpg"
+                      alt=""
+                      class="w-75"
+                    />
+                  </div>
+
+              <div class="d-flex mt-3">
+                <img src="images/featured-2.jpg" alt="" class="w-50 h-25 rounded pointer">
+
+                <div class="m-2 mt-3">
+                  <h6 class="title fw-bold">Sollicitudin ac orci phasellus egestas</h6>
+                  <p class="advance-small">Dec 29, 2020</p>
+                </div>
+              </div>
+  
+                
+
+              <div class="d-flex mt-3">
+                <img src="images/pexels-lumn-399161-1080x675.jpg" alt="" class="w-50 h-25 rounded pointer">
+
+                <div class="m-2">
+                  <h6 class="title fw-bold">Sollicitudin ac orci phasellus egestas</h6>
+                  <p class="advance-small">Dec 29, 2020</p>
+                </div>
+              </div>  
+                
+
+
+              <div class="d-flex mt-3">
+                <img src="images/recent-3.jpg" alt="" class="w-50 h-25 rounded pointer">
+
+                <div class="m-2">
+                  <h6 class="title fw-bold">Sollicitudin ac orci phasellus egestas</h6>
+                  <p class="advance-small">Dec 29, 2020</p>
+                </div>
+              </div>
+            </div>
+            <div class="text-end text-dark">
+              <a href=""
+                >View All Recent <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+            </div>
+          </div>
+        </div>  
+                
+
+        <!-- left card-2 -->
+        <div class="row mt-5 section-gap">
+          <h2 class="fw-bold"><span class="theme-color mb-2">Business</span> News
+            <span><a href="business.html" class="main-button p-2">View All</a></span>
+          </h2>
+          <div class="col-lg-8 col-md-8 col-sm-12 advance-card p-3">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-8">
+                <div class="button-card">
+                  <div>
+                    <img src="images/pexels-lumn-399161-1080x675.jpg" class="w-100 rounded-3 pointer" alt="...">
+                    <div class="img-button">
+                      <button>FEATURED</button> <button>WEBSITE</button>s
+                    </div>
+                    <div class="date-button"><button>Dec 22</button></div>
+                  </div>
+                  <div class="p-0">
+                    <h5 class="fw-bold title">Sollicitudin ac orci phasellus egestas
+                    </h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna...</p>
+                  </div>
+                </div>
+              </div>
+ 
+
+                  
+
+
+              <div class="col-lg-4 col-md-4 col-sm-8 advance-sub-card">
+                <div class="d-flex">
+                  <img src="images/featured-3.jpg" alt="" class="w-50 h-25 rounded pointer">
+
+                  <div class="m-2">
+                    <h6 class="title fw-bold">Sollicitudin ac orci phasellus egestas</h6>
+                    <p class="advance-small">Dec 29, 2020</p>
+                  </div>
+                </div>  
+                  
+
+
+                <div class="d-flex mt-3">
+                  <img src="images/featured-2.jpg" alt="" class="w-50 h-25 rounded pointer">
+
+                  <div class="m-2">
+                    <h6 class="title fw-bold">Sollicitudin ac orci phasellus egestas</h6>
+                    <p class="advance-small">Dec 29, 2020 </p>
+                  </div>
+                </div> 
+                  
+
+
+                <div class="d-flex mt-3">
+                  <img src="images/pexels-lumn-399161-1080x675.jpg" alt="" class="w-50 h-25 rounded pointer">
+
+                  <div class="m-2">
+                    <h6 class="title fw-bold">Sollicitudin ac orci phasellus egestas</h6>
+                    <p class="advance-small">Dec 29, 2020</p>
+                  </div>
+                </div>  
+                  
+
+
+                <div class="d-flex mt-3">
+                  <img src="images/recent-3.jpg" alt="" class="w-50 h-25 rounded pointer">
+
+                  <div class="m-2">
+                    <h6 class="title fw-bold">Sollicitudin ac orci phasellus egestas</h6>
+                    <p class="advance-small">Dec 29, 2020</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>  
+                  
+
+
+          <!-- left card-3 -->
+          <div class="row mt-5 section-gap">
+            <h2 class="fw-bold"><span class="theme-color">Website</span> News
+              <span><a href="website.html" class="main-button p-2">View All</a></span>
+            </h2>
+            <div class="col-lg-8 col-md-8 col-sm-12 advance-card p-3">
+
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-8">
+
+
+                  <div class="button-card">
+                    <div>
+                      <img src="images/recent-3.jpg" class="w-100 rounded-3 pointer" alt="...">
+                      <div class="img-button">
+                        <button>FEATURED</button> <button>WEBSITE</button>s
+                      </div>
+                      <div class="date-button"><button>Dec 22</button></div>
+                    </div>
+                    <div class="p-0">
+                      <h5 class="fw-bold title">Sollicitudin ac orci phasellus egestas
+                      </h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna...</p>
+                    </div>
+                  </div>
+                </div> 
+                      
+                      
+                    
+
+
+
+                <div class="col-lg-4 col-md-4 col-sm-8 advance-sub-card">
+                  <div class="d-flex">
+                    <img src="images/featured-3.jpg" alt="" class="w-50 h-25 rounded pointer">
+
+                    <div class="m-2">
+                      <h6 class="title fw-bold">Sollicitudin ac orci phasellus egestas</h6>
+                      <p class="advance-small">Dec 29, 2020</p>
+                    </div>
+                  </div>  
+                    
+
+
+                  <div class="d-flex mt-3">
+                    <img src="images/featured-2.jpg" alt="" class="w-50 h-25 rounded pointer">
+
+                    <div class="m-2">
+                      <h6 class="title fw-bold">Sollicitudin ac orci phasellus egestas</h6>
+                      <p class="advance-small">Dec 29, 2020</p>
+                    </div>
+                  </div>  
+                    
+
+
+                  <div class="d-flex mt-3">
+                    <img src="images/pexels-lumn-399161-1080x675.jpg" alt="" class="w-50 h-25 rounded pointer">
+
+                    <div class="m-2">
+                      <h6 class="title fw-bold">Sollicitudin ac orci phasellus egestas</h6>
+                      <p class="advance-small">Dec 29, 2020</p>
+                    </div>
+                  </div>  
+                    
+
+
+                  <div class="d-flex mt-3">
+                    <img src="images/recent-3.jpg" alt="" class="w-50 h-25 rounded pointer">
+
+                    <div class="m-2">
+                      <h6 class="title fw-bold">Sollicitudin ac orci phasellus egestas</h6>
+                      <p class="advance-small">Dec 29, 2020</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>  
+                    
+
+            <!-- left card-3 -->
+            <div class="row mt-5">
+              <h2 class="fw-bold">
+                <span class="home-color">Website</span> News
+                <span
+                  ><a href="website.html" class="advance-view-button p-2"
+                    >View All</a
+                  ></span
+                >
+              </h2>
+              <div class="col-lg-8 col-md-8 col-sm-12 card-section-2 p-3">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-8">
+                    <div class="blog-card card h-100">
+                      <div>
+                        <img
+                          src="images/recent-3.jpg"
+                          class="card-img-top advance-image w-100 rounded-3"
+                          alt="..."
+                        />
+                        <div class="img-btn">
+                          <button>FEATURED</button> <button>WEBSITE</button>
+                        </div>
+                        <div class="date-btn"><button>Dec 22</button></div>
+                      </div>
+                      <div class="card-body p-0">
+                        <h5 class="fw-bold advance-card-title">
+                          Sollicitudin ac orci phasellus egestas
+                        </h5>
+                        <p class="p-tag">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna...
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-4 col-sm-8 sub-card-2">
+                    <div class="d-flex">
+                      <img
+                        src="images/featured-3.jpg"
+                        alt=""
+                        class="w-25 h-25 rounded advance-image"
+                      />
+
+                      <div class="orci m-2">
+                        <h6 class="advance-tag-2 advance-card-title">
+                          Sollicitudin ac orci phasellus egestas
+                        </h6>
+                        <p class="advance-small">Dec 29, 2020</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex">
+                      <img
+                        src="images/featured-2.jpg"
+                        alt=""
+                        class="w-25 h-25 rounded advance-image"
+                      />
+
+                      <div class="orci m-2">
+                        <h6 class="advance-tag-2 advance-card-title">
+                          Sollicitudin ac orci phasellus egestas
+                        </h6>
+                        <p class="advance-small">Dec 29, 2020</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex">
+                      <img
+                        src="images/pexels-lumn-399161-1080x675.jpg"
+                        alt=""
+                        class="w-25 h-25 rounded advance-image"
+                      />
+
+                      <div class="orci m-2">
+                        <h6 class="advance-tag-2 advance-card-title">
+                          Sollicitudin ac orci phasellus egestas
+                        </h6>
+                        <p class="advance-small">Dec 29, 2020</p>
+                      </div>
+                    </div>
+
+
+            <div class="col-lg-4 col-md-4 col-sm-12 advance-right-card p-2">
+              <!--right card-1 -->
+              <div class="right-card">
+                <p class="p-3 p-tag">Molti is a Professionally Designed Multipurpose Child Theme for Divi. And you can
+                  use it to create almost any kind of Website with Divi.</p>
+
+                <div class="d-flex icon-responsive text-center p-3">
+                  <a href="#"> <i class="fa-brands fa-facebook fs-5 theme-color"></i></a>
+                  <a href="#"> <i class="fa-brands fa-linkedin fs-5 theme-color mx-2"></i></a>
+                  <a href="#"> <i class="fa-brands fa-twitter fs-5 theme-color"></i></a>
+                </div>
+              </div>
+
+              <!--right card-2 -->
+              <div class="text-center mt-3 right-card">
+                <h3 class="theme-color mt-5">Newsletter</h3>
+                <p class="p-3 p-tag">Subscribe to our Newsletter for Latest Updates, Special Discounts, and much more.
+                </p>
+
+                <form class="row g-3 p-3">
+                  <div class="col-auto">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                  </div>
+                  <div class="col-auto advance-submit">
+                    <button type="submit" class="main-button mb-3">SUBSCRIBE</button>
+                  </div>
+                </form>
+              </div>
+
+              <!--right card-3 -->
+              <div class="right-card mt-5">
+                <h4 class="theme-color m-4">Browse Categories</h4>
+
+                <div class="d-grid m-5">
+                  <hr>
+                  <a href="business.html" class="title fw-bold">Business (7)</a>
+                  <hr>
+                  <a href="featured.html" class="title fw-bold">Featured (3)</a>
+                  <hr>
+                  <a href="website.html" class="title fw-bold">Website (7)</a>
+                  <hr>
+
+                <!--right card-3 -->
+                <div class="advance-card-5 mt-5">
+                  <h4 class="home-color mt-4 m-4 fw-bold">Browse Categories</h4>
+
+                  <div class="d-grid m-5">
+                    <hr />
+                    <a href="business.html" class="advance-anchor-tag fw-bold"
+                      >Business (7)</a
+                    >
+                    <hr />
+                    <a href="featured.html" class="advance-anchor-tag fw-bold"
+                      >Featured (3)</a
+                    >
+                    <hr />
+                    <a href="website.html" class="advance-anchor-tag fw-bold"
+                      >Website (7)</a
+                    >
+                    <hr />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------- 
+        footer Section 
+    ----------------------->
+    <footer>
+      <div class="footer-section bg-dark text-white p-4">
+        <div class="row">
+          <div class="footer-section-1 mb-2 col col-lg-4 col-md-12 col-12">
+            <div>
+              <a href="index.html">
+                <img src="images/Creative-corporate-logo.png" alt="logo" />
+              </a>
+              <p>
+                Creative Corporate is a Professionally Designed for
+                Multipurpose.And you can use it to create almost any kind of
+                Website for any kind of business.<br />If you need to create a
+                custom website of need to add custom features to this, then fell
+                free to contact us.
+              </p>
+            </div>
+            <hr />
+
+            <h5>Follow Us:</h5>
+
+            <div class="icon-footer d-flex gap-4">
+              <a href="#"> <i class="fa-brands fa-facebook-f">f</i></a>
+              <a href="#"><i class="icon-footer fa-brands fa-twitter">t</i></a>
+              <a href="#">
+                <i class="icon-footer fa-brands fa-instagram">i</i></a
+              >
+              <a href="#"><i class="icon-footer fa-brands fa-dribbble">b</i></a>
+            </div>
+          </div>
+
+          <div class="footer-section-2 mt-2 lh-lg col col-lg-2 col-md-6 col-12">
+            <h5 class="fw-bold">NAVIGATE</h5>
+            <ul class="fs-6">
+              <li>
+                <a href="#">Homepage</a>
+              </li>
+              <li>
+                <a href="#">Careers</a>
+              </li>
+              <li>
+                <a href="#">News</a>
+              </li>
+              <li>
+                <a href="#">Affiliates</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section-2 mt-2 lh-lg col col-lg-2 col-md-6 col-12">
+            <h5 class="fw-bold">RESOURCES</h5>
+            <ul class="fs-6">
+              <li>
+                <a href="#">Blog</a>
+              </li>
+              <li>
+                <a href="#">Documentation</a>
+              </li>
+              <li>
+                <a href="#">Community</a>
+              </li>
+              <li>
+                <a href="#">Pricing</a>
+              </li>
+              <li>
+                <a href="#">Design Case</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section-2 mt-2 lh-lg col col-lg-2 col-md-6 col-12">
+            <h5 class="fw-bold">COMPANY</h5>
+            <ul>
+              <li>
+                <a href="#">Services</a>
+              </li>
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">Happy Customer</a>
+              </li>
+              <li>
+                <a href="#">Portfolio</a>
+              </li>
+              <li>
+                <a href="#">Help Center</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section-2 mt-2 lh-lg col col-lg-2 col-md-6 col-12">
+            <h5 class="fw-bold">Help</h5>
+            <ul class="fs-6">
+              <li>
+                <a href="#"><i class="fa-solid fa-phone"></i> +49 893 358 75</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-envelope"></i> contact@c.com</a
+                >
+              </li>
+              <li>
+                <p>
+                  <a href="#"
+                    ><i class="fa-solid fa-location-dot"></i> 49 Unique Square
+                    D, New York,</a
+                  >
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- sub footer start  -->
+        <hr />
+
+        <div class="sub-footer text-center lh-lg d-grid justify-content-around">
+          <div>
+            <a href="terms.html">Terms</a>
+            <a href="faqs.html">Faqs</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+          </div>
+          <div>
+            <small>
+              &copy; <span id="year"></span> | All rights reserved by
+
+              <span>
+                <a
+                  href="https://www.template.creativetheme.net"
+                  target="_blank"
+                  style="color: tomato"
+                  >Creative Template</a
+                >. Powered by
+              </span>
+              <span>
+                <a
+                  href="https://www.semiclone.com"
+                  target="_blank"
+                  style="color: tomato"
+                  >Semiclone Inc</a
+                >
+              </span>
+            </small>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-------------------
+     footer section end 
+    -------------------->
+
+    <!-------  scroll html ------->
+    <div class="scrolltop">
+      <div class="scroll icon">
+        <i class="fa fa-rocket" aria-hidden="true"></i>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jQuery.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <!----------sticky-------->
+    <script>
+      window.onscroll = function () {
+        myFunction();
+      };
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+
+    <!-- Advance blog Function -->
+    <script>
+      function showBlog(id) {
+        var elements = document.getElementsByClassName("advanceBlog");
+        for (let i = 0; i < elements.length; i++) {
+          elements[i].style.display = "none";
+        }
+        document.getElementById(id).style.display = "block";
+      }
+    </script>
+
+    <!-------  scroll ------->
+    <script>
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 50) {
+          $(".scrolltop:hidden").stop(true, true).fadeIn();
+        } else {
+          $(".scrolltop").stop(true, true).fadeOut();
+        }
+      });
+      $(function () {
+        $(".scroll").click(function () {
+          $("html,body").animate({ scrollTop: $(".top").offset().top }, "1000");
+          return false;
+        });
+      });
+    </script>
+  </body>
+</html>

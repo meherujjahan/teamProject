@@ -1,0 +1,1283 @@
+/* =======desktop view======== */
+@media (min-width: 2561px) {
+   p {
+    font-size: 13px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  h4{
+    font-size: 17px;
+  }
+
+.section-gap {
+  margin-top: 30px;
+}
+
+.main-button {
+  font-size: 10px;
+}
+
+
+.sub-button {
+  font-size: 8px;
+}
+
+.banner-bg{
+  background-color: rgb(255, 243, 240);
+  height: 77vh;
+}
+
+ /* common style ends   */
+
+/* header section */
+header {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.top-header-responsive {
+  font-size: 10px;
+}
+
+.top-icon{
+  font-size: 10px;
+}
+
+.icon-responsive{
+  font-size: 10px;
+  /* margin-left: -90px; */
+}
+
+
+
+  /* single portfolio section start here */
+  .single-portfolio img {
+    width: 80%;
+    height: 140px;
+  }
+
+  .card-2 img {
+    margin-left: 80px;
+  }
+
+  .card-3 img {
+    margin-left: 40px;
+  }
+
+  .accordion-card {
+    width: 100%;
+  }
+
+  .icon-section {
+    margin-left: -10px;
+  }
+
+  .icon-card {
+    width: 100%;
+  }
+  /* single portfolio section ends here */
+}
+
+
+
+
+
+/* =======desktop view======== */
+@media (min-width: 1441px) {
+   p {
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+  .activity-check {
+    display: none;
+  }
+  .main-button {
+    font-size: 16px;
+  }
+
+  .sub-button {
+    font-size: 12px;
+  }
+  /* common style ends   */
+
+  /* header section */
+
+  .navbar-toggler {
+    margin-left: 620px;
+    margin-top: -70px;
+    font-size: 17px;
+  }
+
+  .top-header-responsive {
+    font-size: 15px;
+  }
+
+  .navbar-brand img {
+    width: 70%;
+    margin-top: 20px;
+  }
+
+  /* about section start here */
+
+  /* single portfolio section start here */
+  .single-portfolio img {
+    width: 80%;
+    height: 140px;
+  }
+
+  .card-2 img {
+    margin-left: 80px;
+  }
+
+  .card-3 img {
+    margin-left: 40px;
+  }
+
+  .accordion-card {
+    width: 100%;
+  }
+
+  .icon-section {
+    margin-left: -10px;
+  }
+
+  .icon-card {
+    width: 100%;
+  }
+  /* single portfolio section ends here */
+}
+
+
+
+
+/* =======desktop and laptop view======== */
+
+@media (max-width: 1024px) {
+  p {
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+  .activity-check {
+    display: none;
+  }
+  .main-button {
+    font-size: 16px;
+  }
+
+  .sub-button {
+    font-size: 12px;
+  }
+  /* common style ends   */
+
+  /* header section */
+
+  .navbar-toggler {
+    margin-left: 620px;
+    margin-top: -70px;
+    font-size: 17px;
+  }
+
+  .top-header-responsive {
+    font-size: 15px;
+  }
+
+  .navbar-brand img {
+    width: 70%;
+    margin-top: 20px;
+  }
+
+  /* about section start here */
+
+  /* single portfolio section start here */
+  .single-portfolio img {
+    width: 80%;
+    height: 140px;
+  }
+
+  .card-2 img {
+    margin-left: 80px;
+  }
+
+  .card-3 img {
+    margin-left: 40px;
+  }
+
+  .accordion-card {
+    width: 100%;
+  }
+
+  .icon-section {
+    margin-left: -10px;
+  }
+
+  .icon-card {
+    width: 100%;
+  }
+  /* single portfolio section ends here */
+}
+
+
+
+/* =======tablets and ipads view======== */
+@media (max-width: 1025px) {
+  p {
+    font-size: 13px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  h4{
+    font-size: 17px;
+  }
+
+.section-gap {
+  margin-top: 30px;
+}
+
+.main-button {
+  font-size: 10px;
+}
+
+
+.sub-button {
+  font-size: 8px;
+}
+
+.banner-bg{
+  background-color: rgb(255, 243, 240);
+  height: 77vh;
+}
+
+ /* common style ends   */
+
+/* header section */
+
+.top-header-responsive {
+  font-size: 10px;
+}
+
+.top-icon{
+  font-size: 10px;
+}
+
+.icon-responsive{
+  font-size: 10px;
+  /* margin-left: -90px; */
+}
+
+.email-responsive {
+  display: none;
+}
+
+.navbar-brand img {
+    width: 40%;
+    margin-top: -10px;
+  }
+
+.navbar-nav{
+  margin-left: 90px;
+}
+
+  .nav-link{
+    font-size: 13px;
+  }
+
+/* home page section start here */
+
+.carousel-indicators{
+  display: none;
+}
+
+.carousel-item div a{
+  font-size: 9px;
+}
+
+.join-card {
+  margin-left: -10px;
+  width: 38vh; 
+  height: 55vh;
+  margin-top: 50px;
+}
+
+.team-work {
+  margin: 0.2em;
+  border: 2px solid rgb(248, 228, 224);
+}
+
+.counter h3 {
+  padding: 0.2rem 0;
+  font-size: 1.0rem;
+}
+
+.counter p {
+  font-size: 0.5rem;
+}
+
+.counter .icon {
+  padding: 0.5rem 0;
+  font-size: 1.0rem;
+}
+
+.features-banner {
+  margin-top: 1px;
+  margin-left: 25px;
+} 
+/* home page section ends here */
+
+
+
+ .news-letter {
+    width: 500px;
+    margin: 0px;
+  }
+
+  .news-letter input {
+    width: 200px;
+    margin: 0px;
+    padding: 8px;
+  }
+
+  .post-text {
+    align-items: flex-start;
+    padding: 0px 0px 0px 0px;
+  }
+  .message {
+    margin-bottom: 20px;
+  }
+  .activity-check {
+    display: none;
+  }
+  .career-img img {
+    width: inherit;
+  }
+  .career-images {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .career-cards {
+    margin-bottom: 30px;
+  }
+
+
+
+  
+
+  /* about section start here */
+  .sub-card h2 {
+    font-size: 14px;
+    height: 55px;
+    width: 95%;
+  }
+
+  /* advance section start */
+
+  .advance-card {
+    height: 940px;
+  }
+
+  .advance-submit {
+    margin-left: 60px;
+  }
+  /* advance section ends here */
+
+  /* single portfolio section start here */
+  .single-portfolio img {
+    width: 80%;
+    height: 140px;
+  }
+
+  .card-2 img {
+    margin-left: 80px;
+  }
+
+  .card-3 img {
+    margin-left: 40px;
+  }
+
+  .accordion-card {
+    width: 100%;
+  }
+
+  .icon-section {
+    margin-left: -10px;
+  }
+
+  .icon-card {
+    width: 100%;
+  }
+  /* single portfolio section ends here */
+}
+
+
+
+
+/* =======Mobile phones view======== */
+@media (max-width: 769px) {
+ p {
+    font-size: 9px;
+  }
+  h1 {
+    font-size: 23px;
+  }
+  h2 {
+    font-size: 19px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  h4{
+    font-size: 17px;
+  }
+
+.section-gap {
+  margin-top: 30px;
+}
+
+.main-button {
+  font-size: 10px;
+}
+
+
+.sub-button {
+  font-size: 8px;
+}
+
+.banner-bg{
+  background-color: rgb(255, 243, 240);
+  height: 77vh;
+}
+
+ /* common style ends   */
+
+/* header section */
+.navbar-toggler {
+  margin-left: -27px;
+  margin-top: -28px;
+  font-size: 10px;
+}  
+
+.top-header-responsive {
+  font-size: 10px;
+}
+
+.top-icon{
+  font-size: 10px;
+}
+
+.icon-responsive{
+  font-size: 10px;
+  /* margin-left: -90px; */
+}
+
+.email-responsive {
+  display: none;
+}
+
+.navbar-brand img {
+    width: 40%;
+    margin-top: -10px;
+  }
+
+
+/* home page section start here */
+
+.carousel-indicators{
+  display: none;
+}
+
+.carousel-item div a{
+  font-size: 9px;
+}
+
+.join-card {
+  margin-left: -10px;
+  width: 38vh; 
+  height: 55vh;
+  margin-top: 50px;
+}
+
+.team-work {
+  margin: 0.2em;
+  border: 2px solid rgb(248, 228, 224);
+}
+
+.counter h3 {
+  padding: 0.2rem 0;
+  font-size: 1.0rem;
+}
+
+.counter p {
+  font-size: 0.5rem;
+}
+
+.counter .icon {
+  padding: 0.5rem 0;
+  font-size: 1.0rem;
+}
+
+.features-banner {
+  margin-top: 1px;
+  margin-left: 25px;
+} 
+/* home page section ends here */
+
+
+  .news-letter {
+    width: 500px;
+    margin: 0px;
+  }
+
+  .news-letter input {
+    width: 150px;
+    margin: 0px;
+    padding: 6px;
+  }
+
+  .post-text {
+    align-items: flex-start;
+    padding: 0px 0px 0px 0px;
+  }
+  .activity-check {
+    display: none;
+  }
+  .career-img img {
+    width: inherit;
+  }
+  .career-images {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .career-cards {
+    margin-bottom: 30px;
+  }
+  .contract-input {
+    width: 100%;
+  }
+  .contract-textarea {
+    width: 100%;
+  }
+
+
+  
+  /* about section start here */
+  .sub-card h2 {
+    font-size: 9px;
+    height: 55px;
+    width: 95%;
+  }
+
+  /* single job start here */
+  .form-container {
+    width: 80%;
+    margin-left: 50px;
+  }
+  .number-box {
+    width: 20%;
+  }
+
+  /* single job ends here */
+
+  
+/* advance section start */
+  .advance-card {
+    height: 970px;
+  }
+
+  .advance-submit {
+    margin-left: 30px;
+  }
+  /* advance section ends here */
+
+  /* single portfolio section start here */
+  .single-portfolio img {
+    width: 80%;
+    height: 140px;
+  }
+
+  .card-2 img {
+    margin-left: 80px;
+  }
+
+  .card-3 img {
+    margin-left: 40px;
+  }
+
+  .accordion-card {
+    width: 100%;
+  }
+
+  .icon-section {
+    margin-left: -10px;
+  }
+
+  .icon-card {
+    width: 100%;
+  }
+
+  .repairer-show-2 img{
+  margin-left: 200px;
+}
+
+.repairer-show-3 img{
+  margin-left: 80px;
+}
+  /* single portfolio section ends here */
+}
+
+
+
+
+
+/* ============= Small Screen Mobile view=========== */
+@media (max-width: 426px) {
+   p {
+    font-size: 9px;
+  }
+  b {
+    font-size: small;
+    font-weight: 500;
+  }
+  h1 {
+    font-size: 23px;
+  }
+  h2 {
+    font-size: 19px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  h4{
+    font-size: 17px;
+  }
+
+.section-gap {
+  margin-top: 30px;
+}
+
+.main-button {
+  font-size: 10px;
+}
+
+
+.sub-button {
+  font-size: 8px;
+}
+
+ /* common style ends   */
+
+/* header section */
+.navbar-toggler {
+  margin-left: 320px;
+  margin-top: -55px;
+  font-size: 10px;
+}  
+
+.top-header-responsive {
+  font-size: 10px;
+}
+
+.top-icon{
+  font-size: 10px;
+}
+
+.icon-responsive{
+  font-size: 10px;
+}
+
+.email-responsive {
+  display: none;
+}
+
+.navbar-brand img {
+    width: 40%;
+    margin-top: -10px;
+  }
+
+
+/* home page section start here */
+
+.carousel-indicators{
+  display: none;
+}
+
+.carousel-item div a{
+  font-size: 9px;
+}
+
+.join-card {
+  margin-left: -10px;
+  width: 45vh; 
+  height: 55vh;
+  margin-top: 50px;
+}
+
+.team-work {
+  margin: 0.2em;
+  border: 2px solid rgb(248, 228, 224);
+}
+
+.counter h3 {
+  padding: 0.2rem 0;
+  font-size: 1.0rem;
+}
+
+.counter p {
+  font-size: 0.5rem;
+}
+
+.counter .icon {
+  padding: 0.5rem 0;
+  font-size: 1.0rem;
+}
+
+.features-banner {
+  margin-top: 1px;
+  margin-left: 25px;
+} 
+
+
+  /* about section start here */
+  .about {
+    margin-left: -10px;
+  }
+
+  .sub-card h2 {
+    font-size: 12px;
+    height: 55px;
+    width: 95%;
+  }
+
+  /* single services start here*/
+  .single-service-card {
+    margin-left: 5px;
+  }
+
+  /* single job start here */
+  .form-container {
+    width: 80%;
+    margin-left: 50px;
+  }
+  .number-box {
+    width: 20%;
+  }
+
+  /* single job ends here */
+
+  /* advance section start */
+  .advance-right-card {
+    margin-top: 148px;
+  }
+
+  .advance-card {
+    height: 940px;
+  }
+
+  .advance-submit {
+    margin-left: 60px;
+  }
+  /* advance section ends here */
+
+  /* single portfolio section start here */
+  .single-portfolio img {
+    width: 80%;
+    height: 140px;
+  }
+
+  .card-2 img {
+    margin-left: 80px;
+  }
+
+  .card-3 img {
+    margin-left: 40px;
+  }
+
+  .accordion-card {
+    width: 100%;
+  }
+
+  .icon-section {
+    margin-left: -10px;
+  }
+
+  .icon-card {
+    width: 100%;
+  }
+
+  .repairer-show-2 img{
+  margin-left: 140px;
+}
+
+.repairer-show-3 img{
+  margin-left: 70px;
+}
+  /* single portfolio section ends here */
+}
+
+
+
+
+/* ============= Small Screen Mobile view=========== */
+@media (max-width: 376px) {
+   p {
+    font-size: 9px;
+  }
+
+  h1 {
+    font-size: 21px;
+  }
+  h2 {
+    font-size: 19px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  h4{
+    font-size: 17px;
+  }
+
+.section-gap {
+  margin-top: 30px;
+}
+
+.main-button {
+  font-size: 10px;
+}
+
+
+.sub-button {
+  font-size: 8px;
+}
+
+ /* common style ends   */
+
+/* header section */
+.navbar-toggler {
+  margin-left: 260px;
+  margin-top: -55px;
+  font-size: 10px;
+}  
+
+.top-header-responsive {
+  font-size: 10px;
+}
+
+.top-icon{
+  font-size: 10px;
+}
+
+.icon-responsive{
+  font-size: 10px;
+}
+
+.email-responsive {
+  display: none;
+}
+
+.navbar-brand img {
+    width: 40%;
+    margin-top: -10px;
+  }
+
+
+/* home page section start here */
+
+.carousel-indicators{
+  display: none;
+}
+
+.carousel-item div a{
+  font-size: 9px;
+}
+
+.join-card {
+  margin-left: -10px;
+  width: 40vh; 
+  height: 55vh;
+  margin-top: 50px;
+}
+
+.team-work {
+  margin: 0.2em;
+  border: 2px solid rgb(248, 228, 224);
+}
+
+.counter h3 {
+  padding: 0.2rem 0;
+  font-size: 1.0rem;
+}
+
+.counter p {
+  font-size: 0.5rem;
+}
+
+.counter .icon {
+  padding: 0.5rem 0;
+  font-size: 1.0rem;
+}
+
+.features-banner {
+  margin-top: 1px;
+  margin-left: 25px;
+} 
+
+
+  /* about section start here */
+  .about {
+    margin-left: -10px;
+  }
+
+  .sub-card h2 {
+    font-size: 12px;
+    height: 55px;
+    width: 95%;
+  }
+
+  /* single services start here*/
+  .single-service-card {
+    margin-left: 5px;
+  }
+
+  /* single job start here */
+  .form-container {
+    width: 80%;
+    margin-left: 50px;
+  }
+  .number-box {
+    width: 20%;
+  }
+
+  /* single job ends here */
+
+  /* advance section start */
+  .advance-right-card {
+    margin-top: 148px;
+  }
+
+  .advance-card {
+    height: 940px;
+  }
+
+  .advance-submit {
+    margin-left: 60px;
+  }
+  /* advance section ends here */
+
+  /* single portfolio section start here */
+  .single-portfolio img {
+    width: 80%;
+    height: 140px;
+  }
+
+  .card-2 img {
+    margin-left: 80px;
+  }
+
+  .card-3 img {
+    margin-left: 40px;
+  }
+
+  .accordion-card {
+    width: 100%;
+  }
+
+  .icon-section {
+    margin-left: -10px;
+  }
+
+  .icon-card {
+    width: 100%;
+  }
+
+  .repairer-show-2 img{
+  margin-left: 140px;
+}
+
+.repairer-show-3 img{
+  margin-left: 70px;
+}
+  /* single portfolio section ends here */
+}
+
+
+
+@media (max-width: 325px) {
+  p {
+    font-size: 9px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  h4{
+    font-size: 17px;
+  }
+
+.section-gap {
+  margin-top: 30px;
+}
+
+.main-button {
+  font-size: 10px;
+}
+
+
+.sub-button {
+  font-size: 8px;
+}
+
+ /* common style ends   */
+
+/* header section */
+.navbar-toggler {
+  margin-left: 210px;
+  margin-top: -55px;
+  font-size: 10px;
+}  
+
+.top-header-responsive {
+  font-size: 10px;
+}
+
+.top-icon{
+  font-size: 8px;
+}
+
+.icon-responsive{
+  font-size: 10px;
+}
+
+.email-responsive {
+  display: none;
+}
+
+.navbar-brand img {
+    width: 40%;
+    margin-top: -10px;
+  }
+
+
+/* home page section start here */
+
+.carousel-indicators{
+  display: none;
+}
+
+.carousel-item div a{
+  font-size: 9px;
+}
+
+.join-card {
+  margin-left: -10px;
+  width: 34vh; 
+  height: 63vh;
+  margin-top: 50px;
+}
+
+.team-work {
+  margin: 0.2em;
+  border: 2px solid rgb(248, 228, 224);
+}
+
+.counter h3 {
+  padding: 0.2rem 0;
+  font-size: 1.0rem;
+}
+
+.counter p {
+  font-size: 0.5rem;
+}
+
+.counter .icon {
+  padding: 0.5rem 0;
+  font-size: 1.0rem;
+}
+
+.features-banner {
+  margin-top: 1px;
+  margin-left: 25px;
+} 
+
+ 
+/* home page section ends here */
+
+.single-post-2 ul {
+    font-size: 10px;
+  }
+  .fa-check {
+    font-size: 15px;
+    color: rgb(15, 185, 185);
+  }
+  .news-letter {
+    width: 300px;
+    margin: 0px;
+  }
+
+  .news-letter input {
+    width: 150px;
+    margin: 0px;
+    padding: 6px;
+  }
+
+  .post-text {
+    align-items: flex-start;
+    padding: 0px 0px 0px 0px;
+  }
+  .date-btn {
+    margin-top: -60px;
+  }
+  .img-btn {
+    margin-top: -175px;
+  }
+  .message {
+    margin-bottom: 20px;
+  }
+  .activity-check {
+    display: none;
+  }
+  .career-img img {
+    width: inherit;
+  }
+  .career-images {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .career-cards {
+    margin-bottom: 30px;
+  }
+  .contract-input {
+    width: 100%;
+  }
+  .contract-textarea {
+    width: 100%;
+  }
+  .service-section-4 {
+    margin: 0px;
+    padding: 0px;
+  }
+
+
+  /* about section start here */
+  .about {
+    margin-left: -40px;
+  }
+
+  .sub-card h2 {
+    font-size: 12px;
+    height: 55px;
+    width: 95%;
+  }
+
+  /* single services start here*/
+  .single-service-card {
+    margin-left: 5px;
+  }
+
+  /* single job start here */
+  .form-container {
+    width: 80%;
+    margin-left: 50px;
+  }
+  .number-box {
+    width: 20%;
+  }
+
+  /* single job ends here */
+
+  /* advance section start here */
+  .advance-right-card {
+    margin-top: 175px;
+  }
+
+  .advance-card {
+    height: 920px;
+  }
+
+  .advance-submit {
+    margin-left: 40px;
+  }
+  /* advance section ends here */
+
+  /* single portfolio section start here */
+  .single-portfolio img {
+    width: 80%;
+    height: 140px;
+  }
+
+  .card-2 img {
+    margin-left: 80px;
+  }
+
+  .card-3 img {
+    margin-left: 40px;
+  }
+
+  .accordion-card {
+    width: 100%;
+  }
+
+  .icon-section {
+    margin-left: -10px;
+  }
+
+  .icon-card {
+    width: 100%;
+  }
+
+
+.repairer-show-2 img{
+  margin-left: 110px;
+}
+
+.repairer-show-3 img{
+  margin-left: 50px;
+}
+  /* single portfolio section ends here */
+}
